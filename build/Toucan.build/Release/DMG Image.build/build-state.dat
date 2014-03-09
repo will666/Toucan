@@ -1,0 +1,17 @@
+TDMG Image
+v7
+r1
+
+N/Users/will/Desktop/Toucan/build/Release/DMG Image
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Release/DMG Image.build/Script-BE684D4E10801A46009D523E.sh
+c00000000000000000000000000000000
+t2
+s0
+
+CPhaseScriptExecution "Create DMG Image" "/Users/will/Desktop/Toucan/build/Toucan.build/Release/DMG Image.build/Script-BE684D4E10801A46009D523E.sh"
+r0
+

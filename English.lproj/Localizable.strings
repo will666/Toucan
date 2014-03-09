@@ -1,0 +1,73 @@
+/* 
+   Localizable.strings
+   Toucan
+
+   Created by William VALENTIN on 07/10/09.
+   Copyright 2009 ExoApps. All rights reserved.
+ */
+
+"ICON_POPUP_BUTTON_TITLE" = "Icon";
+"MIDDLE_POPUP_BUTTON_TITLE" = "Middle";
+"HUGE_POPUP_BUTTON_TITLE" = "Big";
+"COLOR_POPUP_BUTTON_TITLE" = "Color";
+"BLACK_AND_WHITE_POPUP_BUTTON_TITLE" = "B&W";
+"NEWS_POPUP_BUTTON_TITLE" = "News";
+"FACE_POPUP_BUTTON_TITLE" = "Faces";
+"PHOTO_CONTENT_POPUP_BUTTON_TITLE" = "Photo content";
+"CLIPART_POPUP_BUTTON_TITLE" = "Clipart";
+"HAND_DRAW_POPUP_BUTTON_TITLE" = "Hand draw";
+"DESTINATION_FOLDER_DIALOG_TITLE" = "Current location: ";
+"GROWL_PATH_CHANGED_DESCRIPTION_NOTIFICATION" = "Destination folder successfully changed => %@";
+"GROWL_DOWNLOAD_ERROR_DESCRIPTION_NOTIFICATION" = "Error occured while downloading the image!";
+"GROWL_DOWNLOAD_SUCCESSFULL_DESCRIPTION_NOTIFICATION" = "Saved successfully => %@";
+"GROWL_CONNEXION_FAILED_DESCRIPTION_NOTIFICATION" = "Connexion to remote server failed!";
+"SAFE_RADIO_BUTTON_TITLE" = "Enable";
+"SIZE_TOOLBAR_ITEM_LABEL" = "Size";
+"SIZE_TOOLBAR_ITEM_PALETTE_LABEL" = "Size";
+"TINT_TOOLBAR_ITEM_LABEL" = "Tint";
+"TINT_TOOLBAR_ITEM_PALETTE_LABEL" = "Tint";
+"GENERAL_PREF_TOOLBAR_ITEM_LABEL" = "General";
+"GENERAL_PREF_TOOLBAR_ITEM_PALETTE_LABEL" = "General";
+"ADVANCED_PREF_TOOLBAR_ITEM_LABEL" = "Advanced";
+"ADVANCED_PREF_TOOLBAR_ITEM_PALETTE_LABEL" = "Advanced";
+"SEARCH_FIELD_TOOLBAR_ITEM_LABEL" = "Find";
+"SEARCH_FIELD_TOOLBAR_ITEM_PALETTE_LABEL" = "Find";
+"SEARCH_BUTTON_TOOLBAR_ITEM_LABEL" = "Send";
+"SEARCH_BUTTON_TOOLBAR_ITEM_PALETTE_LABEL" = "Send";
+"SAFE_RADIO_BUTTON_TOOLBAR_LABEL" = "Moderate";
+"SAFE_RADIO_BUTTON_TOOLBAR_PALETTE_LABEL" = "Moderate";
+"POSITION_TEXT_FIELD_RESULTS" = "Image: %d to %d";
+"COPYRIGHTS_TEXT_FIELD_LABEL" = "©2009 ExoApps, All rights reserved";
+"COMPLETED_DOWNLOAD_PERCENTS" = "%i%% of \"%@\" completed";
+"IMG_INFOS_NAME" = "Name : %@";
+"IMG_INFOS_SIZE" = "Size : %@ ppp";
+"IMG_INFOS_TYPE" = "Type : %@";
+"IMG_INFOS_SOURCE" = "Source : %@";
+"COPYRIGHTS_1_POPUP_BUTTON_TITLE" = "Labeled for reuse";
+"COPYRIGHTS_2_POPUP_BUTTON_TITLE" = "Labeled for commercial reuse";
+"COPYRIGHTS_3_POPUP_BUTTON_TITLE" = "Labeled for reuse with modification";
+"COPYRIGHTS_4_POPUP_BUTTON_TITLE" = "Labeled for commercial reuse with modification";
+"COPY_TOOLBAR_ITEM_LABEL" = "Copyrights";
+"COPY_TOOLBAR_ITEM_PALETTE_LABEL" = "Copyrights";
+"SAFE_RADIO_BUTTON_TOOLBAR_TOOLTIP_LABEL" = "Enable/Disable results moderation filter";
+"SIZE_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choose images scale size";
+"SEARCH_BUTTON_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Click to launch the search";
+"SEARCH_FIELD_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Enter keyword(s) to search. You can limit the research on a specified site (replace KEYWORD and SITE) => KEYWORD :SITE";
+"COPY_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choose the labeled reuse type";
+"TINT_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choose images tint";
+"INFO_SIZE" = "Size: ";
+"INFO_TYPE" = "Type: ";
+"INFO_SOURCE" = "Source: ";
+"FORMAT_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choose images format";
+"TYPE_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choose images type";
+"SLIDESHOW_BUTTON_TOOLTIP_LABEL" = "Launch slideshow";
+"SEARCH_TEXTFIELD_TOOLTIP" = "Enter Keyword(s)";
+"GROWL_DOWNLOAD_ERROR_SOME_ITEMS_UNFETCHABLE_DESCRIPTION_NOTIFICATION" = "%i image(s) not downloaded. Missing on remote host!";
+"IMAGE_TOOL_MODE_MOVE_LABEL" = "Move";
+"IMAGE_TOOL_MODE_SELECT_LABEL" = "Select";
+"IMAGE_TOOL_MODE_CROP_LABEL" = "Crop";
+"IMAGE_TOOL_MODE_ROTATE_LABEL" = "Rotate";
+"IMAGE_TOOL_MODE_ANNOTATE_LABEL" = "Annotate";
+"GROWL_ADD_DOWNLOADS_NOTIFICATION" = "%i images added to download list";
+"SEND_MAIL_SUBJECT" = "Images: %@";
+"SEND_MAIL_BODY" = "Sent from Toucan: http://www.wills-portal.com";

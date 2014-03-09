@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BE3D6ABB10F36AD500A80229 /* Upload to FTP */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BE3D6ABE10F36AF300A80229 /* Build configuration list for PBXAggregateTarget "Upload to FTP" */;
+			buildPhases = (
+				BE3D6ABA10F36AD500A80229 /* cURL Upload */,
+			);
+			dependencies = (
+				BE3D6AC010F36AF400A80229 /* PBXTargetDependency */,
+			);
+			name = "Upload to FTP";
+			productName = FTP;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5BAFD7270F2B0B42008B35DC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAFD7250F2B0B42008B35DC /* Quartz.framework */; };
+		5BEFE3620F2A0DBE00385A80 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFE3610F2A0DBE00385A80 /* MainController.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BE056706115272E1009FC665 /* cursorRotateLeft.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE056704115272E1009FC665 /* cursorRotateLeft.tif */; };
+		BE056707115272E1009FC665 /* cursorRotateRight.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE056705115272E1009FC665 /* cursorRotateRight.tif */; };
+		BE056708115272E1009FC665 /* cursorRotateLeft.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE056704115272E1009FC665 /* cursorRotateLeft.tif */; };
+		BE056709115272E1009FC665 /* cursorRotateRight.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE056705115272E1009FC665 /* cursorRotateRight.tif */; };
+		BE05670D115273BB009FC665 /* CB_G_ActualSize.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670A115273BB009FC665 /* CB_G_ActualSize.tiff */; };
+		BE05670E115273BB009FC665 /* LT_G_FitToWindow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670B115273BB009FC665 /* LT_G_FitToWindow.tiff */; };
+		BE05670F115273BB009FC665 /* Viewer_G_FitToWindow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670C115273BB009FC665 /* Viewer_G_FitToWindow.tiff */; };
+		BE056710115273BB009FC665 /* CB_G_ActualSize.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670A115273BB009FC665 /* CB_G_ActualSize.tiff */; };
+		BE056711115273BB009FC665 /* LT_G_FitToWindow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670B115273BB009FC665 /* LT_G_FitToWindow.tiff */; };
+		BE056712115273BB009FC665 /* Viewer_G_FitToWindow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05670C115273BB009FC665 /* Viewer_G_FitToWindow.tiff */; };
+		BE05671511527444009FC665 /* zoom_larger.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE05671311527444009FC665 /* zoom_larger.tif */; };
+		BE05671611527444009FC665 /* zoom_smaller.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE05671411527444009FC665 /* zoom_smaller.tif */; };
+		BE05671711527444009FC665 /* zoom_larger.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE05671311527444009FC665 /* zoom_larger.tif */; };
+		BE05671811527444009FC665 /* zoom_smaller.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE05671411527444009FC665 /* zoom_smaller.tif */; };
+		BE05671A115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE056719115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff */; };
+		BE05671B115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE056719115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff */; };
+		BE05671F1152761B009FC665 /* Info_G_Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05671E1152761B009FC665 /* Info_G_Add.tiff */; };
+		BE0567201152761B009FC665 /* Info_G_Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05671E1152761B009FC665 /* Info_G_Add.tiff */; };
+		BE05675311528611009FC665 /* sl-status_import.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675011528611009FC665 /* sl-status_import.tiff */; };
+		BE05675411528611009FC665 /* Sort_Arrow_G_Down.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675111528611009FC665 /* Sort_Arrow_G_Down.tiff */; };
+		BE05675511528611009FC665 /* Sort_Arrow_G_Up.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675211528611009FC665 /* Sort_Arrow_G_Up.tiff */; };
+		BE05675611528611009FC665 /* sl-status_import.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675011528611009FC665 /* sl-status_import.tiff */; };
+		BE05675711528611009FC665 /* Sort_Arrow_G_Down.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675111528611009FC665 /* Sort_Arrow_G_Down.tiff */; };
+		BE05675811528611009FC665 /* Sort_Arrow_G_Up.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05675211528611009FC665 /* Sort_Arrow_G_Up.tiff */; };
+		BE05677A1152A28C009FC665 /* TB_Zoom_Glyph.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0567791152A28C009FC665 /* TB_Zoom_Glyph.tiff */; };
+		BE05677B1152A28C009FC665 /* TB_Zoom_Glyph.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0567791152A28C009FC665 /* TB_Zoom_Glyph.tiff */; };
+		BE0568271152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0568261152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff */; };
+		BE0568281152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0568261152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff */; };
+		BE05682B1152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0568291152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff */; };
+		BE05682C1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05682A1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff */; };
+		BE05682D1152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE0568291152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff */; };
+		BE05682E1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BE05682A1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff */; };
+		BE0568501152C36E009FC665 /* piece-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BE05684F1152C36E009FC665 /* piece-edit.png */; };
+		BE0568511152C36E009FC665 /* piece-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BE05684F1152C36E009FC665 /* piece-edit.png */; };
+		BE0568531152C3D8009FC665 /* button-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0568521152C3D8009FC665 /* button-edit.png */; };
+		BE0568541152C3D8009FC665 /* button-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0568521152C3D8009FC665 /* button-edit.png */; };
+		BE12790A114D5B69000AFAB4 /* Extra HD.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127909114D5B69000AFAB4 /* Extra HD.png */; };
+		BE12790B114D5B69000AFAB4 /* Extra HD.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127909114D5B69000AFAB4 /* Extra HD.png */; };
+		BE127A5A114D9DA1000AFAB4 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127A58114D9DA1000AFAB4 /* closebox.png */; };
+		BE127A5B114D9DA1000AFAB4 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127A59114D9DA1000AFAB4 /* delete.png */; };
+		BE127A5C114D9DA1000AFAB4 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127A58114D9DA1000AFAB4 /* closebox.png */; };
+		BE127A5D114D9DA1000AFAB4 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = BE127A59114D9DA1000AFAB4 /* delete.png */; };
+		BE1370BA119DAC6900B9D764 /* Sparkle.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = BE1370B9119DAC6900B9D764 /* Sparkle.framework */; };
+		BE1370CF119DACA700B9D764 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1370B9119DAC6900B9D764 /* Sparkle.framework */; };
+		BE137145119DAE1800B9D764 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE1370B9119DAC6900B9D764 /* Sparkle.framework */; };
+		BE137147119DAE2200B9D764 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1370B9119DAC6900B9D764 /* Sparkle.framework */; };
+		BE58690A114DD6340064A6AC /* Trash.png in Resources */ = {isa = PBXBuildFile; fileRef = BE586909114DD6340064A6AC /* Trash.png */; };
+		BE58690B114DD6340064A6AC /* Trash.png in Resources */ = {isa = PBXBuildFile; fileRef = BE586909114DD6340064A6AC /* Trash.png */; };
+		BE5E82C21159A238001B836B /* MainController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82C11159A238001B836B /* MainController+TableView.m */; };
+		BE5E82C31159A238001B836B /* MainController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82C11159A238001B836B /* MainController+TableView.m */; };
+		BE5E82EE1159B258001B836B /* MainController+URLDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82ED1159B258001B836B /* MainController+URLDownload.m */; };
+		BE5E82EF1159B258001B836B /* MainController+URLDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82ED1159B258001B836B /* MainController+URLDownload.m */; };
+		BE5E82FA1159B384001B836B /* MainController+SaveImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82F91159B384001B836B /* MainController+SaveImages.m */; };
+		BE5E82FB1159B384001B836B /* MainController+SaveImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E82F91159B384001B836B /* MainController+SaveImages.m */; };
+		BE5E832F1159B95E001B836B /* MainController+URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E832E1159B95E001B836B /* MainController+URLConnection.m */; };
+		BE5E83301159B95E001B836B /* MainController+URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E832E1159B95E001B836B /* MainController+URLConnection.m */; };
+		BE5E833F1159BA87001B836B /* MainController+ImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E833E1159BA87001B836B /* MainController+ImageBrowser.m */; };
+		BE5E83401159BA87001B836B /* MainController+ImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E833E1159BA87001B836B /* MainController+ImageBrowser.m */; };
+		BE5E83571159BC7E001B836B /* MainController+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E83561159BC7E001B836B /* MainController+Regex.m */; };
+		BE5E83581159BC7E001B836B /* MainController+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E83561159BC7E001B836B /* MainController+Regex.m */; };
+		BE5E83691159BF48001B836B /* MainController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E83681159BF48001B836B /* MainController+Utilities.m */; };
+		BE5E836A1159BF48001B836B /* MainController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E83681159BF48001B836B /* MainController+Utilities.m */; };
+		BE5E837F1159C0E1001B836B /* MainController+SplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E837E1159C0E1001B836B /* MainController+SplitView.m */; };
+		BE5E83801159C0E1001B836B /* MainController+SplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E837E1159C0E1001B836B /* MainController+SplitView.m */; };
+		BE5E838B1159C1AA001B836B /* MainController+UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E838A1159C1AA001B836B /* MainController+UserPreferences.m */; };
+		BE5E838C1159C1AA001B836B /* MainController+UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E838A1159C1AA001B836B /* MainController+UserPreferences.m */; };
+		BE5E839B1159C360001B836B /* MainController+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E839A1159C360001B836B /* MainController+ImageView.m */; };
+		BE5E839C1159C360001B836B /* MainController+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5E839A1159C360001B836B /* MainController+ImageView.m */; };
+		BE684BFB107FDC23009D523E /* MyImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE684BFA107FDC23009D523E /* MyImageObject.m */; };
+		BE74CD3F1173DBEE00668A6F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE74CD3E1173DBEE00668A6F /* bg.png */; };
+		BE74CD401173DBEE00668A6F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE74CD3E1173DBEE00668A6F /* bg.png */; };
+		BE74CE221174058800668A6F /* CustomSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74CE211174058800668A6F /* CustomSplitView.m */; };
+		BE74CE231174058800668A6F /* CustomSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74CE211174058800668A6F /* CustomSplitView.m */; };
+		BE74FA241149600700BF01DD /* save-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE74FA231149600700BF01DD /* save-icon.png */; };
+		BE74FA251149600700BF01DD /* save-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE74FA231149600700BF01DD /* save-icon.png */; };
+		BE795DA2107CFFB9002B53A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE795DA1107CFFB9002B53A0 /* Localizable.strings */; };
+		BE795E06107D15FF002B53A0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58150DA1D0A300B32029 /* MainMenu.xib */; };
+		BE795F7C107D7AC4002B53A0 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BE795F7B107D7AC4002B53A0 /* Icon.icns */; };
+		BE7EC96710C0204C00E896AF /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BE795F7B107D7AC4002B53A0 /* Icon.icns */; };
+		BE7EC96810C0204C00E896AF /* downloads.icns in Resources */ = {isa = PBXBuildFile; fileRef = BEF61103107AAB0E00C9B0A5 /* downloads.icns */; };
+		BE7EC96910C0204C00E896AF /* Download _256.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF61101107AAA6200C9B0A5 /* Download _256.png */; };
+		BE7EC96A10C0204C00E896AF /* Download.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF610F3107AA6AB00C9B0A5 /* Download.png */; };
+		BE7EC96B10C0204C00E896AF /* ToolbarOpenTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = BECBE2C8107983290050EC57 /* ToolbarOpenTemplate.png */; };
+		BE7EC96C10C0204C00E896AF /* ExoApps_Pub_Key in Resources */ = {isa = PBXBuildFile; fileRef = BECBE0091078F9010050EC57 /* ExoApps_Pub_Key */; };
+		BE7EC96D10C0204C00E896AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		BE7EC96E10C0204C00E896AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58150DA1D0A300B32029 /* MainMenu.xib */; };
+		BE7EC96F10C0204C00E896AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE795DA1107CFFB9002B53A0 /* Localizable.strings */; };
+		BE7EC97010C0205C00E896AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		BE7EC97110C0206500E896AF /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFE3610F2A0DBE00385A80 /* MainController.m */; };
+		BE7EC97210C0206500E896AF /* MyImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE684BFA107FDC23009D523E /* MyImageObject.m */; };
+		BE7EC97310C0206500E896AF /* SlideShowObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4C35C1087E997004E6B3D /* SlideShowObject.m */; };
+		BE7EC9D010C0207C00E896AF /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAFD7250F2B0B42008B35DC /* Quartz.framework */; };
+		BE7EC9D110C0208C00E896AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BE7ECA1810C020A300E896AF /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */; };
+		BE7ECA5310C020D100E896AF /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */; };
+		BE92983F11738FDE0005D8B4 /* MainController+TabSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92983E11738FDE0005D8B4 /* MainController+TabSearch.m */; };
+		BE92984011738FDE0005D8B4 /* MainController+TabSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92983E11738FDE0005D8B4 /* MainController+TabSearch.m */; };
+		BE92995F1173CC370005D8B4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92995E1173CC370005D8B4 /* CustomView.m */; };
+		BE9299601173CC370005D8B4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92995E1173CC370005D8B4 /* CustomView.m */; };
+		BE92997F1173CE270005D8B4 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE92997E1173CE270005D8B4 /* bg.jpg */; };
+		BE9299801173CE270005D8B4 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE92997E1173CE270005D8B4 /* bg.jpg */; };
+		BE929A081173D60C0005D8B4 /* bg.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE929A071173D60C0005D8B4 /* bg.tif */; };
+		BE929A091173D60C0005D8B4 /* bg.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE929A071173D60C0005D8B4 /* bg.tif */; };
+		BE9AF956114B39AC000D9993 /* MiniProgressGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9AF955114B39AC000D9993 /* MiniProgressGradient.png */; };
+		BE9AF957114B39AC000D9993 /* MiniProgressGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9AF955114B39AC000D9993 /* MiniProgressGradient.png */; };
+		BE9AF95A114B39CC000D9993 /* UKDockProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9AF958114B39CC000D9993 /* UKDockProgressIndicator.m */; };
+		BE9AF95B114B39CC000D9993 /* UKDockProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9AF958114B39CC000D9993 /* UKDockProgressIndicator.m */; };
+		BEA0E867114C12D5004BEF1E /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5D92F010EF9D27005F2C41 /* UserDefaults.plist */; };
+		BEA0E868114C12D5004BEF1E /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5D92F010EF9D27005F2C41 /* UserDefaults.plist */; };
+		BEB5E1331153FB5B002A4280 /* floppy.tif in Resources */ = {isa = PBXBuildFile; fileRef = BEB5E1321153FB5B002A4280 /* floppy.tif */; };
+		BEB5E1341153FB5B002A4280 /* floppy.tif in Resources */ = {isa = PBXBuildFile; fileRef = BEB5E1321153FB5B002A4280 /* floppy.tif */; };
+		BEB90E4B171BB252006C4EA0 /* RegexKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB90E4A171BB252006C4EA0 /* RegexKit.framework */; };
+		BEB90E4C171BB26B006C4EA0 /* RegexKit.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = BEB90E4A171BB252006C4EA0 /* RegexKit.framework */; };
+		BECBE00A1078F9010050EC57 /* ExoApps_Pub_Key in Resources */ = {isa = PBXBuildFile; fileRef = BECBE0091078F9010050EC57 /* ExoApps_Pub_Key */; };
+		BECBE05C107903EB0050EC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		BECBE2C9107983290050EC57 /* ToolbarOpenTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = BECBE2C8107983290050EC57 /* ToolbarOpenTemplate.png */; };
+		BED707C01174F3280040F0BF /* CustomScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = BED707BF1174F3280040F0BF /* CustomScroller.m */; };
+		BED707C11174F3290040F0BF /* CustomScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = BED707BF1174F3280040F0BF /* CustomScroller.m */; };
+		BED707FC1174F8310040F0BF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BED707FB1174F8310040F0BF /* CustomCell.m */; };
+		BED707FD1174F8310040F0BF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BED707FB1174F8310040F0BF /* CustomCell.m */; };
+		BED7086C117502DD0040F0BF /* CustomProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED7086B117502DD0040F0BF /* CustomProgressIndicator.m */; };
+		BED7086D117502DD0040F0BF /* CustomProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED7086B117502DD0040F0BF /* CustomProgressIndicator.m */; };
+		BEE4C35D1087E997004E6B3D /* SlideShowObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4C35C1087E997004E6B3D /* SlideShowObject.m */; };
+		BEE5C1AB10F53F0F00F7B56E /* NSObject+DeallocControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5C1AA10F53F0F00F7B56E /* NSObject+DeallocControl.m */; };
+		BEE5C1AC10F53F0F00F7B56E /* NSObject+DeallocControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5C1AA10F53F0F00F7B56E /* NSObject+DeallocControl.m */; };
+		BEEFE3A8114FC844001C8606 /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEEFE3A2114FC844001C8606 /* Remove.tiff */; };
+		BEEFE3AE114FC844001C8606 /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEEFE3A2114FC844001C8606 /* Remove.tiff */; };
+		BEEFE3BE114FDB8F001C8606 /* Extra HD2.tif in Resources */ = {isa = PBXBuildFile; fileRef = BEEFE3BD114FDB8F001C8606 /* Extra HD2.tif */; };
+		BEEFE3BF114FDB8F001C8606 /* Extra HD2.tif in Resources */ = {isa = PBXBuildFile; fileRef = BEEFE3BD114FDB8F001C8606 /* Extra HD2.tif */; };
+		BEF6107B107A9A4600C9B0A5 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */; };
+		BEF610BF107A9A4C00C9B0A5 /* Growl-WithInstaller.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */; };
+		BEF610F4107AA6AB00C9B0A5 /* Download.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF610F3107AA6AB00C9B0A5 /* Download.png */; };
+		BEF61102107AAA6200C9B0A5 /* Download _256.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF61101107AAA6200C9B0A5 /* Download _256.png */; };
+		BEF61104107AAB0E00C9B0A5 /* downloads.icns in Resources */ = {isa = PBXBuildFile; fileRef = BEF61103107AAB0E00C9B0A5 /* downloads.icns */; };
+		BEF848381151176B0080D91F /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = BEF848371151176B0080D91F /* app.icns */; };
+		BEF848391151176B0080D91F /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = BEF848371151176B0080D91F /* app.icns */; };
+		BEF8483B115117740080D91F /* AccountPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEF8483A115117740080D91F /* AccountPreferences.tiff */; };
+		BEF8483C115117740080D91F /* AccountPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEF8483A115117740080D91F /* AccountPreferences.tiff */; };
+		BEF84878115127720080D91F /* SendMail.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF84877115127720080D91F /* SendMail.m */; };
+		BEF84879115127720080D91F /* SendMail.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF84877115127720080D91F /* SendMail.m */; };
+		BEF84AAB115186D80080D91F /* DesktopImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF84AAA115186D80080D91F /* DesktopImage.m */; };
+		BEF84AAC115186D80080D91F /* DesktopImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF84AAA115186D80080D91F /* DesktopImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE134BB910D2AE8300821A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = Toucan;
+		};
+		BE3D6ABF10F36AF400A80229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE0BCF21082809300F8D9EC;
+			remoteInfo = "Final Release - Toucan";
+		};
+		BE684D4B10801A35009D523E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = Toucan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B86244B0F2A40FD000BF3CE /* Copy frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE1370BA119DAC6900B9D764 /* Sparkle.framework in Copy frameworks */,
+				BEB90E4C171BB26B006C4EA0 /* RegexKit.framework in Copy frameworks */,
+				BEF610BF107A9A4C00C9B0A5 /* Growl-WithInstaller.framework in Copy frameworks */,
+			);
+			name = "Copy frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7ECA5610C020EF00E896AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE137145119DAE1800B9D764 /* Sparkle.framework in CopyFiles */,
+				BE7ECA5310C020D100E896AF /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Toucan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toucan_Prefix.pch; sourceTree = "<group>"; };
+		5BAFD7250F2B0B42008B35DC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		5BEFE3600F2A0DBE00385A80 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		5BEFE3610F2A0DBE00385A80 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Toucan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toucan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE056704115272E1009FC665 /* cursorRotateLeft.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cursorRotateLeft.tif; sourceTree = "<group>"; };
+		BE056705115272E1009FC665 /* cursorRotateRight.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cursorRotateRight.tif; sourceTree = "<group>"; };
+		BE05670A115273BB009FC665 /* CB_G_ActualSize.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CB_G_ActualSize.tiff; sourceTree = "<group>"; };
+		BE05670B115273BB009FC665 /* LT_G_FitToWindow.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LT_G_FitToWindow.tiff; sourceTree = "<group>"; };
+		BE05670C115273BB009FC665 /* Viewer_G_FitToWindow.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Viewer_G_FitToWindow.tiff; sourceTree = "<group>"; };
+		BE05671311527444009FC665 /* zoom_larger.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = zoom_larger.tif; sourceTree = "<group>"; };
+		BE05671411527444009FC665 /* zoom_smaller.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = zoom_smaller.tif; sourceTree = "<group>"; };
+		BE056719115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ATB_Crop_Glyph_Sm.tiff; sourceTree = "<group>"; };
+		BE05671E1152761B009FC665 /* Info_G_Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Info_G_Add.tiff; sourceTree = "<group>"; };
+		BE05675011528611009FC665 /* sl-status_import.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sl-status_import.tiff"; sourceTree = "<group>"; };
+		BE05675111528611009FC665 /* Sort_Arrow_G_Down.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Sort_Arrow_G_Down.tiff; sourceTree = "<group>"; };
+		BE05675211528611009FC665 /* Sort_Arrow_G_Up.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Sort_Arrow_G_Up.tiff; sourceTree = "<group>"; };
+		BE0567791152A28C009FC665 /* TB_Zoom_Glyph.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TB_Zoom_Glyph.tiff; sourceTree = "<group>"; };
+		BE0568261152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Viewer_G_LargeHardcover.tiff; sourceTree = "<group>"; };
+		BE0568291152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Viewer_G_LargeSoftcover.tiff; sourceTree = "<group>"; };
+		BE05682A1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Viewer_G_ScaleToFit.tiff; sourceTree = "<group>"; };
+		BE05684F1152C36E009FC665 /* piece-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piece-edit.png"; sourceTree = "<group>"; };
+		BE0568521152C3D8009FC665 /* button-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-edit.png"; sourceTree = "<group>"; };
+		BE127909114D5B69000AFAB4 /* Extra HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Extra HD.png"; sourceTree = "<group>"; };
+		BE127A58114D9DA1000AFAB4 /* closebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebox.png; sourceTree = "<group>"; };
+		BE127A59114D9DA1000AFAB4 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		BE134C0810D2B91A00821A3C /* com.exoapps.Toucan.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = com.exoapps.Toucan.plist; sourceTree = "<group>"; };
+		BE1370B9119DAC6900B9D764 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework"; sourceTree = "<absolute>"; };
+		BE586909114DD6340064A6AC /* Trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trash.png; sourceTree = "<group>"; };
+		BE5D92F010EF9D27005F2C41 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		BE5D939D10EFB07A005F2C41 /* Toucan_Tiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toucan_Tiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5E5A821080C36E00BA4E73 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = French; path = French.lproj/Info.plist; sourceTree = "<group>"; };
+		BE5E82C01159A238001B836B /* MainController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+TableView.h"; sourceTree = "<group>"; };
+		BE5E82C11159A238001B836B /* MainController+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+TableView.m"; sourceTree = "<group>"; };
+		BE5E82EC1159B258001B836B /* MainController+URLDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+URLDownload.h"; sourceTree = "<group>"; };
+		BE5E82ED1159B258001B836B /* MainController+URLDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+URLDownload.m"; sourceTree = "<group>"; };
+		BE5E82F81159B384001B836B /* MainController+SaveImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+SaveImages.h"; sourceTree = "<group>"; };
+		BE5E82F91159B384001B836B /* MainController+SaveImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+SaveImages.m"; sourceTree = "<group>"; };
+		BE5E832D1159B95E001B836B /* MainController+URLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+URLConnection.h"; sourceTree = "<group>"; };
+		BE5E832E1159B95E001B836B /* MainController+URLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+URLConnection.m"; sourceTree = "<group>"; };
+		BE5E833D1159BA87001B836B /* MainController+ImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+ImageBrowser.h"; sourceTree = "<group>"; };
+		BE5E833E1159BA87001B836B /* MainController+ImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+ImageBrowser.m"; sourceTree = "<group>"; };
+		BE5E83551159BC7E001B836B /* MainController+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+Regex.h"; sourceTree = "<group>"; };
+		BE5E83561159BC7E001B836B /* MainController+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+Regex.m"; sourceTree = "<group>"; };
+		BE5E83671159BF48001B836B /* MainController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+Utilities.h"; sourceTree = "<group>"; };
+		BE5E83681159BF48001B836B /* MainController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+Utilities.m"; sourceTree = "<group>"; };
+		BE5E837D1159C0E1001B836B /* MainController+SplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+SplitView.h"; sourceTree = "<group>"; };
+		BE5E837E1159C0E1001B836B /* MainController+SplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+SplitView.m"; sourceTree = "<group>"; };
+		BE5E83891159C1AA001B836B /* MainController+UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+UserPreferences.h"; sourceTree = "<group>"; };
+		BE5E838A1159C1AA001B836B /* MainController+UserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+UserPreferences.m"; sourceTree = "<group>"; };
+		BE5E83991159C360001B836B /* MainController+ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+ImageView.h"; sourceTree = "<group>"; };
+		BE5E839A1159C360001B836B /* MainController+ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+ImageView.m"; sourceTree = "<group>"; };
+		BE684BF9107FDC23009D523E /* MyImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageObject.h; sourceTree = "<group>"; };
+		BE684BFA107FDC23009D523E /* MyImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageObject.m; sourceTree = "<group>"; };
+		BE684D4410801A22009D523E /* DMG Image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DMG Image"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE74CD3E1173DBEE00668A6F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		BE74CE201174058800668A6F /* CustomSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSplitView.h; sourceTree = "<group>"; };
+		BE74CE211174058800668A6F /* CustomSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSplitView.m; sourceTree = "<group>"; };
+		BE74FA231149600700BF01DD /* save-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-icon.png"; sourceTree = "<group>"; };
+		BE795D9F107CFFAF002B53A0 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BE795DA3107CFFBF002B53A0 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BE795F7B107D7AC4002B53A0 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		BE7EC96310C01FC100E896AF /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = English; path = "English.lproj/Toucan_Tiger-Info.plist"; sourceTree = "<group>"; };
+		BE7ECA6410C0224A00E896AF /* Toucan_Tiger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toucan_Tiger_Prefix.pch; sourceTree = "<group>"; };
+		BE7ECB1310C0264A00E896AF /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = French; path = "French.lproj/Toucan_Tiger-Info.plist"; sourceTree = "<group>"; };
+		BE92983D11738FDE0005D8B4 /* MainController+TabSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+TabSearch.h"; sourceTree = "<group>"; };
+		BE92983E11738FDE0005D8B4 /* MainController+TabSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+TabSearch.m"; sourceTree = "<group>"; };
+		BE92995D1173CC370005D8B4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		BE92995E1173CC370005D8B4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		BE92997E1173CE270005D8B4 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		BE929A071173D60C0005D8B4 /* bg.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bg.tif; sourceTree = "<group>"; };
+		BE9AF955114B39AC000D9993 /* MiniProgressGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MiniProgressGradient.png; sourceTree = "<group>"; };
+		BE9AF958114B39CC000D9993 /* UKDockProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKDockProgressIndicator.m; sourceTree = "<group>"; };
+		BE9AF959114B39CC000D9993 /* UKDockProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKDockProgressIndicator.h; sourceTree = "<group>"; };
+		BEB5E1321153FB5B002A4280 /* floppy.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = floppy.tif; sourceTree = "<group>"; };
+		BEB90E4A171BB252006C4EA0 /* RegexKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RegexKit.framework; path = ../../Documents/DEV_TMP/TOOLS/Frameworks/RegexKit.framework; sourceTree = "<group>"; };
+		BECBE0091078F9010050EC57 /* ExoApps_Pub_Key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExoApps_Pub_Key; sourceTree = "<group>"; };
+		BECBE2C8107983290050EC57 /* ToolbarOpenTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarOpenTemplate.png; sourceTree = "<group>"; };
+		BED707BE1174F3280040F0BF /* CustomScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScroller.h; sourceTree = "<group>"; };
+		BED707BF1174F3280040F0BF /* CustomScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScroller.m; sourceTree = "<group>"; };
+		BED707FA1174F8310040F0BF /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		BED707FB1174F8310040F0BF /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		BED7086A117502DD0040F0BF /* CustomProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProgressIndicator.h; sourceTree = "<group>"; };
+		BED7086B117502DD0040F0BF /* CustomProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgressIndicator.m; sourceTree = "<group>"; };
+		BEE0BCF31082809300F8D9EC /* Final Release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE4C35B1087E997004E6B3D /* SlideShowObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowObject.h; sourceTree = "<group>"; };
+		BEE4C35C1087E997004E6B3D /* SlideShowObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowObject.m; sourceTree = "<group>"; };
+		BEE5C1A910F53F0F00F7B56E /* NSObject+DeallocControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocControl.h"; sourceTree = "<group>"; };
+		BEE5C1AA10F53F0F00F7B56E /* NSObject+DeallocControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocControl.m"; sourceTree = "<group>"; };
+		BEEFE3A2114FC844001C8606 /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Remove.tiff; sourceTree = "<group>"; };
+		BEEFE3BD114FDB8F001C8606 /* Extra HD2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Extra HD2.tif"; sourceTree = "<group>"; };
+		BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Growl-WithInstaller.framework"; path = "/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework"; sourceTree = "<absolute>"; };
+		BEF610F3107AA6AB00C9B0A5 /* Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Download.png; sourceTree = "<group>"; };
+		BEF61101107AAA6200C9B0A5 /* Download _256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Download _256.png"; sourceTree = "<group>"; };
+		BEF61103107AAB0E00C9B0A5 /* downloads.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = downloads.icns; sourceTree = "<group>"; };
+		BEF848371151176B0080D91F /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
+		BEF8483A115117740080D91F /* AccountPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AccountPreferences.tiff; sourceTree = "<group>"; };
+		BEF84876115127720080D91F /* SendMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMail.h; sourceTree = "<group>"; };
+		BEF84877115127720080D91F /* SendMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMail.m; sourceTree = "<group>"; };
+		BEF84AA9115186D80080D91F /* DesktopImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopImage.h; sourceTree = "<group>"; };
+		BEF84AAA115186D80080D91F /* DesktopImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB90E4B171BB252006C4EA0 /* RegexKit.framework in Frameworks */,
+				BE1370CF119DACA700B9D764 /* Sparkle.framework in Frameworks */,
+				BEF6107B107A9A4600C9B0A5 /* Growl-WithInstaller.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5BAFD7270F2B0B42008B35DC /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7EC95F10C01FC100E896AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE137147119DAE2200B9D764 /* Sparkle.framework in Frameworks */,
+				BE7ECA1810C020A300E896AF /* Growl-WithInstaller.framework in Frameworks */,
+				BE7EC9D110C0208C00E896AF /* Cocoa.framework in Frameworks */,
+				BE7EC9D010C0207C00E896AF /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E830A1159B512001B836B /* Categories */,
+				5BEFE3600F2A0DBE00385A80 /* MainController.h */,
+				5BEFE3610F2A0DBE00385A80 /* MainController.m */,
+				BE684BF9107FDC23009D523E /* MyImageObject.h */,
+				BE684BFA107FDC23009D523E /* MyImageObject.m */,
+				BEE4C35B1087E997004E6B3D /* SlideShowObject.h */,
+				BEE4C35C1087E997004E6B3D /* SlideShowObject.m */,
+				BE9AF959114B39CC000D9993 /* UKDockProgressIndicator.h */,
+				BE9AF958114B39CC000D9993 /* UKDockProgressIndicator.m */,
+				BEF84876115127720080D91F /* SendMail.h */,
+				BEF84877115127720080D91F /* SendMail.m */,
+				BEF84AA9115186D80080D91F /* DesktopImage.h */,
+				BEF84AAA115186D80080D91F /* DesktopImage.m */,
+				BE74CF801174195600668A6F /* SubClasses */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB90E4A171BB252006C4EA0 /* RegexKit.framework */,
+				5BAFD7250F2B0B42008B35DC /* Quartz.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				BEF6107A107A9A4600C9B0A5 /* Growl-WithInstaller.framework */,
+				BE1370B9119DAC6900B9D764 /* Sparkle.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Toucan.app */,
+				BE5D939D10EFB07A005F2C41 /* Toucan_Tiger.app */,
+				BE684D4410801A22009D523E /* DMG Image */,
+				BEE0BCF31082809300F8D9EC /* Final Release */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GoogleImageSearch */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				BE134C1010D2B92B00821A3C /* Shared files */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GoogleImageSearch;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BE7ECA6410C0224A00E896AF /* Toucan_Tiger_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Toucan_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE74CD3E1173DBEE00668A6F /* bg.png */,
+				BE929A071173D60C0005D8B4 /* bg.tif */,
+				BE92997E1173CE270005D8B4 /* bg.jpg */,
+				BEB5E1321153FB5B002A4280 /* floppy.tif */,
+				BE0568521152C3D8009FC665 /* button-edit.png */,
+				BE05684F1152C36E009FC665 /* piece-edit.png */,
+				BE0568291152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff */,
+				BE05682A1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff */,
+				BE0568261152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff */,
+				BE0567791152A28C009FC665 /* TB_Zoom_Glyph.tiff */,
+				BE05675011528611009FC665 /* sl-status_import.tiff */,
+				BE05675111528611009FC665 /* Sort_Arrow_G_Down.tiff */,
+				BE05675211528611009FC665 /* Sort_Arrow_G_Up.tiff */,
+				BE05671E1152761B009FC665 /* Info_G_Add.tiff */,
+				BE056719115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff */,
+				BE05671311527444009FC665 /* zoom_larger.tif */,
+				BE05671411527444009FC665 /* zoom_smaller.tif */,
+				BE05670A115273BB009FC665 /* CB_G_ActualSize.tiff */,
+				BE05670B115273BB009FC665 /* LT_G_FitToWindow.tiff */,
+				BE05670C115273BB009FC665 /* Viewer_G_FitToWindow.tiff */,
+				BE056704115272E1009FC665 /* cursorRotateLeft.tif */,
+				BE056705115272E1009FC665 /* cursorRotateRight.tif */,
+				BEF8483A115117740080D91F /* AccountPreferences.tiff */,
+				BEF848371151176B0080D91F /* app.icns */,
+				BEEFE3BD114FDB8F001C8606 /* Extra HD2.tif */,
+				BEEFE3A2114FC844001C8606 /* Remove.tiff */,
+				BE586909114DD6340064A6AC /* Trash.png */,
+				BE127A58114D9DA1000AFAB4 /* closebox.png */,
+				BE127A59114D9DA1000AFAB4 /* delete.png */,
+				BE127909114D5B69000AFAB4 /* Extra HD.png */,
+				BE9AF955114B39AC000D9993 /* MiniProgressGradient.png */,
+				BE7ECB0210C0250F00E896AF /* Toucan_Tiger-Info.plist */,
+				BE795F7B107D7AC4002B53A0 /* Icon.icns */,
+				BE74FA231149600700BF01DD /* save-icon.png */,
+				BEF61103107AAB0E00C9B0A5 /* downloads.icns */,
+				BEF61101107AAA6200C9B0A5 /* Download _256.png */,
+				BEF610F3107AA6AB00C9B0A5 /* Download.png */,
+				BECBE2C8107983290050EC57 /* ToolbarOpenTemplate.png */,
+				BECBE0091078F9010050EC57 /* ExoApps_Pub_Key */,
+				BE5E5A801080C35B00BA4E73 /* Info.plist */,
+				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58150DA1D0A300B32029 /* MainMenu.xib */,
+				BE795DA1107CFFB9002B53A0 /* Localizable.strings */,
+				BE5D92F010EF9D27005F2C41 /* UserDefaults.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE134C1010D2B92B00821A3C /* Shared files */ = {
+			isa = PBXGroup;
+			children = (
+				BE134C0810D2B91A00821A3C /* com.exoapps.Toucan.plist */,
+			);
+			name = "Shared files";
+			sourceTree = "<group>";
+		};
+		BE5E830A1159B512001B836B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5C1A910F53F0F00F7B56E /* NSObject+DeallocControl.h */,
+				BEE5C1AA10F53F0F00F7B56E /* NSObject+DeallocControl.m */,
+				BE5E82C01159A238001B836B /* MainController+TableView.h */,
+				BE5E82C11159A238001B836B /* MainController+TableView.m */,
+				BE5E82EC1159B258001B836B /* MainController+URLDownload.h */,
+				BE5E82ED1159B258001B836B /* MainController+URLDownload.m */,
+				BE5E82F81159B384001B836B /* MainController+SaveImages.h */,
+				BE5E82F91159B384001B836B /* MainController+SaveImages.m */,
+				BE5E832D1159B95E001B836B /* MainController+URLConnection.h */,
+				BE5E832E1159B95E001B836B /* MainController+URLConnection.m */,
+				BE5E833D1159BA87001B836B /* MainController+ImageBrowser.h */,
+				BE5E833E1159BA87001B836B /* MainController+ImageBrowser.m */,
+				BE5E83551159BC7E001B836B /* MainController+Regex.h */,
+				BE5E83561159BC7E001B836B /* MainController+Regex.m */,
+				BE5E83671159BF48001B836B /* MainController+Utilities.h */,
+				BE5E83681159BF48001B836B /* MainController+Utilities.m */,
+				BE5E837D1159C0E1001B836B /* MainController+SplitView.h */,
+				BE5E837E1159C0E1001B836B /* MainController+SplitView.m */,
+				BE5E83891159C1AA001B836B /* MainController+UserPreferences.h */,
+				BE5E838A1159C1AA001B836B /* MainController+UserPreferences.m */,
+				BE5E83991159C360001B836B /* MainController+ImageView.h */,
+				BE5E839A1159C360001B836B /* MainController+ImageView.m */,
+				BE92983D11738FDE0005D8B4 /* MainController+TabSearch.h */,
+				BE92983E11738FDE0005D8B4 /* MainController+TabSearch.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BE74CF801174195600668A6F /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BEE78B64117620EA00EF4E25 /* Unused */,
+				BE92995D1173CC370005D8B4 /* CustomView.h */,
+				BE92995E1173CC370005D8B4 /* CustomView.m */,
+				BE74CE201174058800668A6F /* CustomSplitView.h */,
+				BE74CE211174058800668A6F /* CustomSplitView.m */,
+			);
+			name = SubClasses;
+			sourceTree = "<group>";
+		};
+		BEE78B64117620EA00EF4E25 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				BED707BE1174F3280040F0BF /* CustomScroller.h */,
+				BED707BF1174F3280040F0BF /* CustomScroller.m */,
+				BED707FA1174F8310040F0BF /* CustomCell.h */,
+				BED707FB1174F8310040F0BF /* CustomCell.m */,
+				BED7086A117502DD0040F0BF /* CustomProgressIndicator.h */,
+				BED7086B117502DD0040F0BF /* CustomProgressIndicator.m */,
+			);
+			name = Unused;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Toucan" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5B86244B0F2A40FD000BF3CE /* Copy frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toucan;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GoogleImageSearch;
+			productReference = 8D1107320486CEB800E47090 /* Toucan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE684D4310801A22009D523E /* DMG Image - Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE684D4A10801A27009D523E /* Build configuration list for PBXNativeTarget "DMG Image - Toucan" */;
+			buildPhases = (
+				BE684D4E10801A46009D523E /* Create DMG Image */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE684D4C10801A35009D523E /* PBXTargetDependency */,
+			);
+			name = "DMG Image - Toucan";
+			productName = DMG;
+			productReference = BE684D4410801A22009D523E /* DMG Image */;
+			productType = "com.apple.product-type.tool";
+		};
+		BE7EC96010C01FC100E896AF /* Toucan_Tiger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7EC96610C01FC200E896AF /* Build configuration list for PBXNativeTarget "Toucan_Tiger" */;
+			buildPhases = (
+				BE7EC95D10C01FC100E896AF /* Resources */,
+				BE7EC95E10C01FC100E896AF /* Sources */,
+				BE7EC95F10C01FC100E896AF /* Frameworks */,
+				BE7ECA5610C020EF00E896AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toucan_Tiger;
+			productName = Toucan_Tiger;
+			productReference = BE5D939D10EFB07A005F2C41 /* Toucan_Tiger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE0BCF21082809300F8D9EC /* Final Release - Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE0BCFD1082812800F8D9EC /* Build configuration list for PBXNativeTarget "Final Release - Toucan" */;
+			buildPhases = (
+				BEE0BCF8108280BB00F8D9EC /* Sparkle & www */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE134BBA10D2AE8300821A3C /* PBXTargetDependency */,
+			);
+			name = "Final Release - Toucan";
+			productName = "Final Release";
+			productReference = BEE0BCF31082809300F8D9EC /* Final Release */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ExoApps;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Toucan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GoogleImageSearch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Toucan */,
+				BE7EC96010C01FC100E896AF /* Toucan_Tiger */,
+				BE684D4310801A22009D523E /* DMG Image - Toucan */,
+				BEE0BCF21082809300F8D9EC /* Final Release - Toucan */,
+				BE3D6ABB10F36AD500A80229 /* Upload to FTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBE05C107903EB0050EC57 /* InfoPlist.strings in Resources */,
+				BE795E06107D15FF002B53A0 /* MainMenu.xib in Resources */,
+				BECBE00A1078F9010050EC57 /* ExoApps_Pub_Key in Resources */,
+				BECBE2C9107983290050EC57 /* ToolbarOpenTemplate.png in Resources */,
+				BEF610F4107AA6AB00C9B0A5 /* Download.png in Resources */,
+				BEF61102107AAA6200C9B0A5 /* Download _256.png in Resources */,
+				BEF61104107AAB0E00C9B0A5 /* downloads.icns in Resources */,
+				BE795DA2107CFFB9002B53A0 /* Localizable.strings in Resources */,
+				BE795F7C107D7AC4002B53A0 /* Icon.icns in Resources */,
+				BEA0E867114C12D5004BEF1E /* UserDefaults.plist in Resources */,
+				BE74FA251149600700BF01DD /* save-icon.png in Resources */,
+				BE9AF957114B39AC000D9993 /* MiniProgressGradient.png in Resources */,
+				BE12790B114D5B69000AFAB4 /* Extra HD.png in Resources */,
+				BE127A5C114D9DA1000AFAB4 /* closebox.png in Resources */,
+				BE127A5D114D9DA1000AFAB4 /* delete.png in Resources */,
+				BE58690B114DD6340064A6AC /* Trash.png in Resources */,
+				BEEFE3AE114FC844001C8606 /* Remove.tiff in Resources */,
+				BEEFE3BF114FDB8F001C8606 /* Extra HD2.tif in Resources */,
+				BEF848391151176B0080D91F /* app.icns in Resources */,
+				BEF8483C115117740080D91F /* AccountPreferences.tiff in Resources */,
+				BE056706115272E1009FC665 /* cursorRotateLeft.tif in Resources */,
+				BE056707115272E1009FC665 /* cursorRotateRight.tif in Resources */,
+				BE05670D115273BB009FC665 /* CB_G_ActualSize.tiff in Resources */,
+				BE05670E115273BB009FC665 /* LT_G_FitToWindow.tiff in Resources */,
+				BE05670F115273BB009FC665 /* Viewer_G_FitToWindow.tiff in Resources */,
+				BE05671511527444009FC665 /* zoom_larger.tif in Resources */,
+				BE05671611527444009FC665 /* zoom_smaller.tif in Resources */,
+				BE05671A115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff in Resources */,
+				BE05671F1152761B009FC665 /* Info_G_Add.tiff in Resources */,
+				BE05675311528611009FC665 /* sl-status_import.tiff in Resources */,
+				BE05675411528611009FC665 /* Sort_Arrow_G_Down.tiff in Resources */,
+				BE05675511528611009FC665 /* Sort_Arrow_G_Up.tiff in Resources */,
+				BE05677A1152A28C009FC665 /* TB_Zoom_Glyph.tiff in Resources */,
+				BE0568271152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff in Resources */,
+				BE05682B1152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff in Resources */,
+				BE05682C1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff in Resources */,
+				BE0568501152C36E009FC665 /* piece-edit.png in Resources */,
+				BE0568531152C3D8009FC665 /* button-edit.png in Resources */,
+				BEB5E1331153FB5B002A4280 /* floppy.tif in Resources */,
+				BE9299801173CE270005D8B4 /* bg.jpg in Resources */,
+				BE929A091173D60C0005D8B4 /* bg.tif in Resources */,
+				BE74CD401173DBEE00668A6F /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7EC95D10C01FC100E896AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7EC96710C0204C00E896AF /* Icon.icns in Resources */,
+				BE7EC96810C0204C00E896AF /* downloads.icns in Resources */,
+				BE7EC96910C0204C00E896AF /* Download _256.png in Resources */,
+				BE7EC96A10C0204C00E896AF /* Download.png in Resources */,
+				BE7EC96B10C0204C00E896AF /* ToolbarOpenTemplate.png in Resources */,
+				BE7EC96C10C0204C00E896AF /* ExoApps_Pub_Key in Resources */,
+				BE7EC96D10C0204C00E896AF /* InfoPlist.strings in Resources */,
+				BE7EC96E10C0204C00E896AF /* MainMenu.xib in Resources */,
+				BE7EC96F10C0204C00E896AF /* Localizable.strings in Resources */,
+				BEA0E868114C12D5004BEF1E /* UserDefaults.plist in Resources */,
+				BE74FA241149600700BF01DD /* save-icon.png in Resources */,
+				BE9AF956114B39AC000D9993 /* MiniProgressGradient.png in Resources */,
+				BE12790A114D5B69000AFAB4 /* Extra HD.png in Resources */,
+				BE127A5A114D9DA1000AFAB4 /* closebox.png in Resources */,
+				BE127A5B114D9DA1000AFAB4 /* delete.png in Resources */,
+				BE58690A114DD6340064A6AC /* Trash.png in Resources */,
+				BEEFE3A8114FC844001C8606 /* Remove.tiff in Resources */,
+				BEEFE3BE114FDB8F001C8606 /* Extra HD2.tif in Resources */,
+				BEF848381151176B0080D91F /* app.icns in Resources */,
+				BEF8483B115117740080D91F /* AccountPreferences.tiff in Resources */,
+				BE056708115272E1009FC665 /* cursorRotateLeft.tif in Resources */,
+				BE056709115272E1009FC665 /* cursorRotateRight.tif in Resources */,
+				BE056710115273BB009FC665 /* CB_G_ActualSize.tiff in Resources */,
+				BE056711115273BB009FC665 /* LT_G_FitToWindow.tiff in Resources */,
+				BE056712115273BB009FC665 /* Viewer_G_FitToWindow.tiff in Resources */,
+				BE05671711527444009FC665 /* zoom_larger.tif in Resources */,
+				BE05671811527444009FC665 /* zoom_smaller.tif in Resources */,
+				BE05671B115274F8009FC665 /* ATB_Crop_Glyph_Sm.tiff in Resources */,
+				BE0567201152761B009FC665 /* Info_G_Add.tiff in Resources */,
+				BE05675611528611009FC665 /* sl-status_import.tiff in Resources */,
+				BE05675711528611009FC665 /* Sort_Arrow_G_Down.tiff in Resources */,
+				BE05675811528611009FC665 /* Sort_Arrow_G_Up.tiff in Resources */,
+				BE05677B1152A28C009FC665 /* TB_Zoom_Glyph.tiff in Resources */,
+				BE0568281152BCB6009FC665 /* Viewer_G_LargeHardcover.tiff in Resources */,
+				BE05682D1152BCEE009FC665 /* Viewer_G_LargeSoftcover.tiff in Resources */,
+				BE05682E1152BCEE009FC665 /* Viewer_G_ScaleToFit.tiff in Resources */,
+				BE0568511152C36E009FC665 /* piece-edit.png in Resources */,
+				BE0568541152C3D8009FC665 /* button-edit.png in Resources */,
+				BEB5E1341153FB5B002A4280 /* floppy.tif in Resources */,
+				BE92997F1173CE270005D8B4 /* bg.jpg in Resources */,
+				BE929A081173D60C0005D8B4 /* bg.tif in Resources */,
+				BE74CD3F1173DBEE00668A6F /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE3D6ABA10F36AD500A80229 /* cURL Upload */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "cURL Upload";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -ex\n#\nVERS=`defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion`\n#RELNOTES=`cat \"$PROJECT_DIR/RELNOTES.txt\"`\n/usr/bin/curl --ftp-pasv -u reservoi-wil:frack666 -T \"{\\\n$BUILT_PRODUCTS_DIR\"/\"$PROJECT_NAME\"_www/\"$PROJECT_NAME\"_\"$VERS\"/\"$PROJECT_NAME\" \"$VERS\".zip\",\\\n$BUILT_PRODUCTS_DIR\"/\"$PROJECT_NAME\"_www/\"$PROJECT_NAME\"_\"$VERS\"/\"$VERS\".html\",\\\n$BUILT_PRODUCTS_DIR\"/\"$PROJECT_NAME\"_www/\"$PROJECT_NAME\"_\"$VERS\"/rnotes.css\"\\\n}\" \\\nftp://ftp.wills-portal.com/apps/$PROJECT_NAME/archives/\nexit 0";
+		};
+		BE684D4E10801A46009D523E /* Create DMG Image */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create DMG Image";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -ex\n#\nVERS=`defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion`\n#\ntest -f \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME $VERS.dmg\" && rm -Rf \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME $VERS.dmg\";\ntest -f \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME $VERS.zip\" && rm -Rf \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME $VERS.zip\";\ntest -d \"$PROJECT_DIR/DMG_MEDIAS/$PROJECT_NAME.app\" && rm -Rf \"$PROJECT_DIR/DMG_MEDIAS/$PROJECT_NAME.app\";\n#\ncp -Rf \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app\" \"$PROJECT_DIR/DMG_MEDIAS/\"\n#test -f \"$PROJECT_NAME $VERS.dmg\" && rm \"$PROJECT_NAME $VERS.dmg\"\nsh /Users/will/Documents/DEV_TMP/TOOLS/SCRIPTS/yoursway-create-dmg-1.0.0.2/create-dmg --window-size 500 375 --background \"$PROJECT_DIR/DATA/Background.png\" --icon-size 128 --volname \"$PROJECT_NAME\" --icon \"Applications\" 380 185 --icon \"$PROJECT_NAME\" 110 185 \"$PROJECT_NAME $VERS.dmg\" \"$PROJECT_DIR/DMG_MEDIAS\"\n#rm -Rf \"$PROJECT_DIR/DMG_MEDIAS/$PROJECT_NAME.app\"\n#mv -f \"$PROJECT_DIR/$PROJECT_NAME $VERS.dmg\" \"$BUILT_PRODUCTS_DIR/\"\nmv -f \"$PROJECT_DIR/$PROJECT_NAME $VERS.dmg\" ~/Desktop/\n";
+		};
+		BEE0BCF8108280BB00F8D9EC /* Sparkle & www */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sparkle & www";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "#!/usr/bin/env ruby -w\n\n#################################################################################\n#                                                                               #\n#     appcast_automation.rb                                                     #\n#                                                                               #\n#     author:   Craig Williams                                                  #\n#     created:  2009-01-09                                                      #\n#                                                                               #\n#################################################################################\n#                                                                               #\n#     This program is free software: you can redistribute it and/or modify      #\n#     it under the terms of the GNU General Public License as published by      #\n#     the Free Software Foundation, either version 3 of the License, or         #\n#     (at your option) any later version.                                       #\n#                                                                               #\n#     This program is distributed in the hope that it will be useful,           #\n#     but WITHOUT ANY WARRANTY; without even the implied warranty of            #\n#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the             #\n#     GNU General Public License for more details.                              #\n#                                                                               #\n#     You should have received a copy of the GNU General Public License         #\n#     along with this program.  If not, see <http://www.gnu.org/licenses/>.     #\n#                                                                               #\n#################################################################################\n\n=begin\n  INTRO:\n    In his article, Marc uses a bash script to automate the process of signing your \n    Sparkle enabled app and explains how to put your private and public keys in your \n    keychain. I wrote a Ruby version that extends this functionality to \n    include a few more options\n\n    IMPORTANT: You will need to read Marc's article first before moving forward. \n\n    Here is a quick list of added features:\n    \n    \t1. config.yaml file for configuration information\n    \t2. build_now option - when set to 'NO' will not run during Release style build\n    \t3. Creates project release folder if it does not exist\n    \t4. Creates sub-folders based on version number\n    \t5. Creates css file\n    \t6. Creates xml file containing the '<item>' info generated by the script\n    \t7. Creates an html template file\n    \t8. Copies the newly created archive to the project folder\n    \n\n    The project release folder is not the 'Release' folder Xcode creates. \n    This is a folder that contains this and future Sparkle release builds. \n    See 'appcast_basefolder' below.\n     \n    INSTRUCTIONS:    \n    \n    Config YAML file\n    A YAML file is easily editable and is a good place for us to set up our \n    configuration information. It also enables us not to have to change the \n    script once we have it the way we want it. \n\n    Create a 'config.yaml' file and place it in your projects 'Release' folder\n    and include the following making the necessary changes.\n    ---\n    build_now:              'YES'\n    download_base_url:      'http://updates.wills-portal.com/Toucan/archives'\n    appcast_basefolder:     '/Users/will/Desktop/Toucan_www/'\n    appcast_xml_name:       'appcast.xml'\n    keychain_privkey_name:  'Sparkle Private Key'\n    css_file_name:          'rnotes.css'\n\n    IMPORTANT: If you change the variable names here you also \n    need to change them in the script.\n    \n    VARIABLE EXPLANATION\n\n    build_now: \n      Will only include this script in the build process if this is set to 'YES'\n      The script automatically checks that the build style is 'Release'\n\n    download_base_url:      \n      Your website url where you will place your updated project\n\n    appcast_basefolder:   \n      The base file is created for you and a project folder inside that with\n      the name of your project and version number. \n    \teg  - ProjectName \n      \t\t  - ProjectName 1.0\n    \t\t\t    - appcast.xml (contains the '<item>' info)\n    \t\t\t    - 1.0.html\n    \t\t\t    - rnotes.css\n      \t\t\t  - ProjectName 1.0.zip\n      \t\t  - ProjectName 1.1\n      \t\t\t  - appcast.xml (contains the '<item>' info)\n      \t\t\t  - 1.1.html\n      \t\t\t  - rnotes.css\n      \t\t\t  - ProjectName 1.1.zip\n    \n    \n    The following files are created for you if they do not already exist.\n        appcast_xml_name:\n        css_file_name:\n        version_number.html\n\n    Your archived project file is also copied to the project folder\n        AppName 1.1.zip\n\n    appcast_xml_name:\n      This file holds the results of the script. What is between the '' tags that\n      you will copy into your complete appcast.xml file.\n      Name to your liking.\n\n    keychain_privkey_name:\n      You should understand this after reading Marc's article.\n      Name to your liking.\n\n    css_file_name:\n    This name will be used to create your css file and the link in the xml file. \n    If you change this after these are created make sure also change the xml file \n    or if you created the css file first use that name here.\n\n      The css is at the bottom of the script and is in 'flat' form. One liners.\n      When written to file it is expanded to standard format for easy editing.\n\n    Once your config.yaml file is created and placed in your projects 'Release' folder, \n    add this script as a 'Run Script' build phase. Set the bash to /usr/bin/ruby \n    and you are finished!\n\n    If you have questions, ideas or bug reports please post them at:\n    http://allancraig.net/blog/?p=65\n      \n=end\n\nclass AppCast\n  require 'yaml'\n  require 'tmpdir'\n  require 'fileutils'\n  \n  MESSAGE_HEADER    = 'RUN SCRIPT DURING BUILD MESSAGE'\n  \n  def initialize\n    @signature = ''\n    require_release_build\n    instantiate_project_variables\n    load_config_file\n    \n    # the build_now setting in the config.yaml file\n    # determines whether you want to perform this script\n    # set to 'NO' until you are ready to publish\n    exit_if_build_not_set_to_yes\n    instantiate_appcast_variables\n  end\n  \n  def main_worker_bee\n    create_appcast_folder_and_files\n    remove_old_zip_create_new_zip\n    file_stats\n    create_key\n    create_appcast_xml\n    copy_archive_to_appcast_path\n  end\n  \n  # Only works for Release builds\n  # Exits upon failure\n  def require_release_build\n      if ENV[\"BUILD_STYLE\"] == 'Debug'\n        log_message(\"Distribution target requires 'Release' build style\")\n        exit\n      end\n  end\n  \n  # Exits if no config.yaml file found.\n  def load_config_file\n    config_file_path = \"#{@proj_dir}/config.yaml\"\n    if !File.exists?(config_file_path)\n      log_message(\"No 'config.yaml' file found in project directory.\")\n      exit\n    end\n    @config = YAML.load_file(config_file_path)\n  end\n  \n  def exit_if_build_not_set_to_yes\n      if @config['build_now'] != 'YES'\n        log_message(\"The 'build_now' setting in 'config.yaml' set to 'NO'\\nIf you are wanting to include this script in\\nthe build process change this setting to 'YES'\")\n        exit\n      end\n  end\n\n  def instantiate_project_variables\n    @proj_dir               = ENV['BUILT_PRODUCTS_DIR']\n    @proj_name              = ENV['PROJECT_NAME']\n    @version                = `defaults read \"#{@proj_dir}/#{@proj_name}.app/Contents/Info\" CFBundleVersion`\n    @archive_filename       = \"#{@proj_name} #{@version.chomp}.zip\"\n    @archive_path           = \"#{@proj_dir}/#{@archive_filename}\"\n  end\n\n  def instantiate_appcast_variables\n    @appcast_xml_name       = @config['appcast_xml_name'].chomp\n    @appcast_basefolder     = @config['appcast_basefolder'].chomp\n    @appcast_proj_folder    = \"#{@config['appcast_basefolder']}/#{@proj_name}_#{@version}\".chomp\n    @appcast_xml_path       = \"#{@appcast_proj_folder}/#{@appcast_xml_name}\"\n    @download_base_url      = @config['download_base_url']\n    @keychain_privkey_name  = @config['keychain_privkey_name']\n    @css_file_name          = @config['css_file_name']\n    @releasenotes_url       = \"#{@download_base_url}#{@version.chomp}.html\"\n    @download_url           = \"#{@download_base_url}#{@archive_filename}\"\n  end\n\n  def remove_old_zip_create_new_zip\n    Dir.chdir(@proj_dir)\n    `rm -f #{@proj_name}*.zip`\n    `zip -qr \"#{@archive_filename}\" \"#{@proj_name}.app\"`\n  end\n  \n  def copy_archive_to_appcast_path\n    begin\n      FileUtils.cp(@archive_path, @appcast_proj_folder)\n    rescue\n      log_message(\"There was an error copying the zip file to appcast folder\\nError: #{$!}\")\n    end\n  end\n  \n  def file_stats\n    @size     = File.size(@archive_filename)\n    @pubdate  = `date +\"%a, %d %b %G %T %z\"`\n  end\n  \n  def create_key\n    priv_key_path = \"#{Dir.tmpdir}/priv_key.pem\"\n    \n    key = `security find-generic-password -g -s \"#{@keychain_privkey_name}\" 2>&1 1>/dev/null | perl -pe '($_) = /\"(.+)\"/'`\n    \n    if key == ''\n      log_message(\"Unable to load signing private key with name '#{@keychain_privkey_name}' from keychain\\nFor file #{@archive_filename}\")\n      exit\n    end\n\n    File.open(priv_key_path, 'w') { |f| f.puts key.split(\"\\\\012\") }    \n    \n    @signature = `openssl dgst -sha1 -binary < '#{@archive_path}' \\\n                   | openssl dgst -dss1 -sign '#{priv_key_path}' \\\n                   | openssl enc -base64`\n\n    `rm -fP #{priv_key_path}`\n\n    log_message(@signature)\n\n    if @signature == ''\n      log_message(\"Unable to sign file #{@archive_filename}\")\n      exit\n    end\n  end\n  \n  def create_appcast_xml\n    appcast_xml = \n\"<item>\n\t<title>Version #{@version.chomp}</title>\n\t  <sparkle:releaseNotesLink>\n\t    #{@releasenotes_url.chomp}\n\t  </sparkle:releaseNotesLink>\n\t<pubDate>#{@pubdate.chomp}</pubDate>\n\t<enclosure\n\t\turl=\\\"#{@download_url.chomp}\\\"\n\t\tsparkle:version=\\\"#{@version.chomp}\\\"\n\t\ttype=\\\"application/octet-stream\\\"\n\t\tlength=\\\"#{@size}\\\"\n\t\tsparkle:dsaSignature=\\\"#{@signature.chomp}\\\"\n\t/>\n</item>\"\n\n    File.open(@appcast_xml_path, 'w') { |f| f.puts appcast_xml }\n  end\n  \n  # Creates the appcast folder if it does not exist\n  # or is accidently moved or deleted\n  # Creates an html file with generic note template if it does not exist\n  # This way the notes file is named correctly as well\n  # Creates a css file named from yaml file with default css\n  def create_appcast_folder_and_files\n    base_folder = @appcast_basefolder\n    project_folder = @appcast_proj_folder\n    \n    notes_file = \"#{project_folder}/#{File.basename(@releasenotes_url.chomp)}\"\n    css_file_path = \"#{project_folder}/#{@css_file_name}\"\n    \n    Dir.mkdir(base_folder)    if !File.exists?(base_folder)\n    Dir.mkdir(project_folder) if !File.exists?(project_folder)\n    \n    File.open(notes_file, 'w') { |f| f.puts release_notes_generic_text } if !File.exists?(notes_file)\n    File.open(css_file_path, 'w') { |f| f.puts decompressed_css } if !File.exists?(css_file_path)\n  end\n  \n  def log_message(msg)\n    puts \"\\n\\n----------------------------------------------\"\n    puts MESSAGE_HEADER\n    puts msg\n    puts \"----------------------------------------------\\n\\n\"\n  end\n  \n  def decompressed_css\n    return css_text.gsub(/\\{\\s+/, \"{\\n\\t\").gsub(/;/, \";\\n\\t\").gsub(/^\\s+\\}/, \"}\").gsub(/^\\s+/, \"\\t\")\n  end\n  \n  def release_notes_generic_text\n    return \"<html>\n    \t<head>\n    \t\t<meta http-equiv=\\\"content-type\\\" content=\\\"text/html;charset=utf-8\\\">\n    \t\t<title>What's new in #{@proj_name}?</title>\n    \t\t<meta name=\\\"robots\\\" content=\\\"anchors\\\">\n    \t\t<link href=\\\"rnotes.css\\\" type=\\\"text/css\\\" rel=\\\"stylesheet\\\" media=\\\"all\\\">\n    \t</head>\n    \t<body>\n    \t\t<br />\n    \t\t\t<table class=\\\"dots\\\" width=\\\"100%\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" summary=\\\"Two column table with heading\\\">\n    \t\t\t\t<tr>\n    \t\t\t\t\t<td class=\\\"purple\\\" colspan=\\\"2\\\">\n    \t\t\t\t\t\t<h3>Résolution de différents bugs et optimsation du code</h3>\n    \t\t\t\t\t</td>\n    \t\t\t\t</tr>\n    \t\t\t\t<tr>\n    \t\t\t\t\t<td valign=\\\"top\\\" width=\\\"150\\\"><img src=\\\"Background.png\\\" alt=\\\"ALT_TITLE\\\"  width=\\\"150\\\" border=\\\"0\\\"></td>\n    \t\t\t\t\t<td valign=\\\"top\\\">\n    \t\t\t\t\t\t<p>De multiples bugs ont été supprimés, le code a été optimisé.</p>\n    \t\t\t\t\t</td>\n    \t\t\t\t</tr>\n    \t\t\t</table>\n    \t\t\t<br>\n    \t</body>\n    </html>\"    \n  end\n  \n  # This css will be expanded to a normal, easily editable form when written to file\n  def css_text\n    return \"body { margin: 2px 12px 12px; }\nh1 h2 h3 p ol ul a a:hover { font-family: \\\"Lucida Grande\\\", Arial, sans-serif; }\nh1 { font-size: 11pt; margin-bottom: 0; }\nh2 { font-size: 9pt; margin-top: 0; margin-bottom: -10px; }\nh3 { font-size: 9pt; font-weight: bold; margin-top: -4px; margin-bottom: -4px; }\np { font-size: 9pt; line-height: 12pt; text-decoration: none; }\nol { font-size: 9pt; line-height: 12pt; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -18px; padding-left: 40px; }\nol li { margin-top: 6px; margin-bottom: 6px; }\nol p { margin-top: 6px; margin-bottom: 6px; }\nul { font-size: 9pt; line-height: 12pt; list-style-type: square; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -24px; padding-left: 40px; }\nul li { margin-top: 6px; margin-bottom: 6px; }\nul p { margin-top: 6px; margin-bottom: 6px; }\na { color: #00f; font-size: 9pt; line-height: 12pt; text-decoration: none; }\na:hover { color: #00f; text-decoration: underline; }\nhr { text-decoration: none; border: solid 1px #bfbfbf; }\ntd { padding: 6px; }\n#banner { background-color: #f2f2f2; background-repeat: no-repeat; padding: -2px 6px 0; position: fixed; top: 0; left: 0; width: 100%; height: 1.2em; float: left; border: solid 1px #bfbfbf; }\n#caticon { margin-top: 3px; margin-bottom: -3px; margin-right: 5px; float: left; }\n#pagetitle { margin-top: 12px; margin-bottom: 0px; margin-left: 40px; width: 88%; border: solid 1px #fff; }\n#mainbox { margin-top: 2349px; padding-right: 6px; }\n#taskbox { background-color: #e6edff; list-style-type: decimal; list-style-position: outside; margin: 12px 0; padding: 2px 12px; border: solid 1px #bfbfbf; }\n#taskbox h2 { margin-top: 8; margin-bottom: -4px; }\n#machelp { position: absolute; top: 2px; left: 10px ; }\n#index { background-color: #f2f2f2; padding-right: 25px; top: 2px; right: 12px; width: auto; float: right; }\n#next { position: absolute; top: 49px; left: 88%; }\n#asindent { margin-left: 22px; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\n.bread { color: #00f; font-size: 8pt; margin: -9px 0 -6px; }\n.leftborder { color: #00f; font-size: 8pt; margin: -9px 0 -6px; padding-top: 2px; padding-bottom: 3px; padding-left: 8px; border-left: 1px solid #bfbfbf; }\n.mult { margin-top: -8px; }\n.blue { background-color: #e6edff; margin-top: -3px; margin-bottom: -3px; padding-top: -3px; padding-bottom: -3px; }\n.rightfloater { float: right; margin-left: 15px; }\n.rules { border-bottom: 1px dotted #ccc; }\n.dots { border: dotted 1px #ccc; }\n.seealso { margin-top: 4px; margin-bottom: 4px; }\ncode { color: black; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\"\n  end\nend\n        \nif __FILE__ == $0\n  newAppcast = AppCast.new\n  newAppcast.main_worker_bee\n  newAppcast.log_message(\"It appears all went well with the build script!\")\nend\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5BEFE3620F2A0DBE00385A80 /* MainController.m in Sources */,
+				BE684BFB107FDC23009D523E /* MyImageObject.m in Sources */,
+				BEE4C35D1087E997004E6B3D /* SlideShowObject.m in Sources */,
+				BEE5C1AB10F53F0F00F7B56E /* NSObject+DeallocControl.m in Sources */,
+				BE9AF95B114B39CC000D9993 /* UKDockProgressIndicator.m in Sources */,
+				BEF84878115127720080D91F /* SendMail.m in Sources */,
+				BEF84AAB115186D80080D91F /* DesktopImage.m in Sources */,
+				BE5E82C31159A238001B836B /* MainController+TableView.m in Sources */,
+				BE5E82EF1159B258001B836B /* MainController+URLDownload.m in Sources */,
+				BE5E82FB1159B384001B836B /* MainController+SaveImages.m in Sources */,
+				BE5E83301159B95E001B836B /* MainController+URLConnection.m in Sources */,
+				BE5E83401159BA87001B836B /* MainController+ImageBrowser.m in Sources */,
+				BE5E83581159BC7E001B836B /* MainController+Regex.m in Sources */,
+				BE5E836A1159BF48001B836B /* MainController+Utilities.m in Sources */,
+				BE5E83801159C0E1001B836B /* MainController+SplitView.m in Sources */,
+				BE5E838C1159C1AA001B836B /* MainController+UserPreferences.m in Sources */,
+				BE5E839C1159C360001B836B /* MainController+ImageView.m in Sources */,
+				BE92984011738FDE0005D8B4 /* MainController+TabSearch.m in Sources */,
+				BE9299601173CC370005D8B4 /* CustomView.m in Sources */,
+				BE74CE231174058800668A6F /* CustomSplitView.m in Sources */,
+				BED707C11174F3290040F0BF /* CustomScroller.m in Sources */,
+				BED707FD1174F8310040F0BF /* CustomCell.m in Sources */,
+				BED7086D117502DD0040F0BF /* CustomProgressIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7EC95E10C01FC100E896AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7EC97110C0206500E896AF /* MainController.m in Sources */,
+				BE7EC97210C0206500E896AF /* MyImageObject.m in Sources */,
+				BE7EC97310C0206500E896AF /* SlideShowObject.m in Sources */,
+				BE7EC97010C0205C00E896AF /* main.m in Sources */,
+				BEE5C1AC10F53F0F00F7B56E /* NSObject+DeallocControl.m in Sources */,
+				BE9AF95A114B39CC000D9993 /* UKDockProgressIndicator.m in Sources */,
+				BEF84879115127720080D91F /* SendMail.m in Sources */,
+				BEF84AAC115186D80080D91F /* DesktopImage.m in Sources */,
+				BE5E82C21159A238001B836B /* MainController+TableView.m in Sources */,
+				BE5E82EE1159B258001B836B /* MainController+URLDownload.m in Sources */,
+				BE5E82FA1159B384001B836B /* MainController+SaveImages.m in Sources */,
+				BE5E832F1159B95E001B836B /* MainController+URLConnection.m in Sources */,
+				BE5E833F1159BA87001B836B /* MainController+ImageBrowser.m in Sources */,
+				BE5E83571159BC7E001B836B /* MainController+Regex.m in Sources */,
+				BE5E83691159BF48001B836B /* MainController+Utilities.m in Sources */,
+				BE5E837F1159C0E1001B836B /* MainController+SplitView.m in Sources */,
+				BE5E838B1159C1AA001B836B /* MainController+UserPreferences.m in Sources */,
+				BE5E839B1159C360001B836B /* MainController+ImageView.m in Sources */,
+				BE92983F11738FDE0005D8B4 /* MainController+TabSearch.m in Sources */,
+				BE92995F1173CC370005D8B4 /* CustomView.m in Sources */,
+				BE74CE221174058800668A6F /* CustomSplitView.m in Sources */,
+				BED707C01174F3280040F0BF /* CustomScroller.m in Sources */,
+				BED707FC1174F8310040F0BF /* CustomCell.m in Sources */,
+				BED7086C117502DD0040F0BF /* CustomProgressIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE134BBA10D2AE8300821A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Toucan */;
+			targetProxy = BE134BB910D2AE8300821A3C /* PBXContainerItemProxy */;
+		};
+		BE3D6AC010F36AF400A80229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE0BCF21082809300F8D9EC /* Final Release - Toucan */;
+			targetProxy = BE3D6ABF10F36AF400A80229 /* PBXContainerItemProxy */;
+		};
+		BE684D4C10801A35009D523E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Toucan */;
+			targetProxy = BE684D4B10801A35009D523E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5E5A801080C35B00BA4E73 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1107310486CEB800E47090 /* English */,
+				BE5E5A821080C36E00BA4E73 /* French */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		BE795DA1107CFFB9002B53A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE795D9F107CFFAF002B53A0 /* English */,
+				BE795DA3107CFFBF002B53A0 /* French */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BE7ECB0210C0250F00E896AF /* Toucan_Tiger-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7EC96310C01FC100E896AF /* English */,
+				BE7ECB1310C0264A00E896AF /* French */,
+			);
+			name = "Toucan_Tiger-Info.plist";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3D6ABC10F36AD500A80229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = FTP;
+			};
+			name = Debug;
+		};
+		BE3D6ABD10F36AD500A80229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = FTP;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BE684D4610801A22009D523E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "DMG Image";
+			};
+			name = Debug;
+		};
+		BE684D4710801A22009D523E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "DMG Image";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BE7EC96410C01FC200E896AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toucan_Tiger_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "English.lproj/Toucan_Tiger-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Toucan_Tiger;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Debug;
+		};
+		BE7EC96510C01FC200E896AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toucan_Tiger_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "English.lproj/Toucan_Tiger-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Toucan_Tiger;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BEE0BCF51082809400F8D9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "Final Release";
+			};
+			name = Debug;
+		};
+		BEE0BCF61082809400F8D9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "Final Release";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/With Garbage Collection\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toucan_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = English.lproj/Info.plist;
+				INSTALL_PATH = /Applications;
+				OTHER_CFLAGS = "-DDEBUG";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = Toucan;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl\"",
+					"\"$(SRCROOT)/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/With Garbage Collection\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toucan_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = English.lproj/Info.plist;
+				INSTALL_PATH = /Applications;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = Toucan;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3D6ABE10F36AF300A80229 /* Build configuration list for PBXAggregateTarget "Upload to FTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3D6ABC10F36AD500A80229 /* Debug */,
+				BE3D6ABD10F36AD500A80229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE684D4A10801A27009D523E /* Build configuration list for PBXNativeTarget "DMG Image - Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE684D4610801A22009D523E /* Debug */,
+				BE684D4710801A22009D523E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7EC96610C01FC200E896AF /* Build configuration list for PBXNativeTarget "Toucan_Tiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7EC96410C01FC200E896AF /* Debug */,
+				BE7EC96510C01FC200E896AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE0BCFD1082812800F8D9EC /* Build configuration list for PBXNativeTarget "Final Release - Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE0BCF51082809400F8D9EC /* Debug */,
+				BEE0BCF61082809400F8D9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

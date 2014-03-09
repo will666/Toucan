@@ -1,0 +1,36 @@
+TDMG Image - Toucan
+v7
+r0
+t293035720.863244
+cCheck dependencies
+
+N/Users/will/Desktop/Toucan/build/Release/DMG Image
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Release/DMG Image - Toucan.build/Script-BE684D4E10801A46009D523E.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/will/Documents/DEV_TMP/Objective-C/Toucan/build/Release/DMG Image
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/will/Documents/DEV_TMP/Objective-C/Toucan/build/Toucan.build/Release/DMG Image - Toucan.build/Script-BE684D4E10801A46009D523E.sh
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293035720#293035720#0(0"0(0#1#0"4300882208#0"0#
+
+CPhaseScriptExecution "Create DMG Image" "/Users/will/Desktop/Toucan/build/Toucan.build/Release/DMG Image - Toucan.build/Script-BE684D4E10801A46009D523E.sh"
+r0
+
+CPhaseScriptExecution "Create DMG Image" "/Users/will/Documents/DEV_TMP/Objective-C/Toucan/build/Toucan.build/Release/DMG Image - Toucan.build/Script-BE684D4E10801A46009D523E.sh"
+r0
+

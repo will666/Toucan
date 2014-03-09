@@ -1,0 +1,2556 @@
+TToucan_Tiger
+v7
+r0
+t295546429.503508
+cCheck dependencies
+cProcessInfoPlistFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Info.plist English.lproj/Toucan_Tiger-Info.plist
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Icon.icns Icon.icns
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/downloads.icns downloads.icns
+cCpResource "build/Debug/Toucan_Tiger.app/Contents/Resources/Download _256.png" "Download _256.png"
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Download.png Download.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/ToolbarOpenTemplate.png ToolbarOpenTemplate.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/ExoApps_Pub_Key ExoApps_Pub_Key
+cCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/InfoPlist.strings InfoPlist.strings
+cCompileXIB /Users/will/Desktop/Toucan/MainMenu.xib
+cCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/French.lproj/Localizable.strings French.lproj/Localizable.strings
+cCopyPlistFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/UserDefaults.plist UserDefaults.plist
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/save-icon.png save-icon.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/MiniProgressGradient.png MiniProgressGradient.png
+cCpResource "build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD.png" "Extra HD.png"
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/closebox.png closebox.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/delete.png delete.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Trash.png Trash.png
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Remove.tiff Remove.tiff
+cCopyTiffFile "/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD2.tif" "Extra HD2.tif"
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/app.icns app.icns
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/AccountPreferences.tiff AccountPreferences.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateLeft.tif cursorRotateLeft.tif
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateRight.tif cursorRotateRight.tif
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/CB_G_ActualSize.tiff CB_G_ActualSize.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/LT_G_FitToWindow.tiff LT_G_FitToWindow.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_FitToWindow.tiff Viewer_G_FitToWindow.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_larger.tif zoom_larger.tif
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_smaller.tif zoom_smaller.tif
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ATB_Crop_Glyph_Sm.tiff ATB_Crop_Glyph_Sm.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Info_G_Add.tiff Info_G_Add.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/sl-status_import.tiff sl-status_import.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Down.tiff Sort_Arrow_G_Down.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Up.tiff Sort_Arrow_G_Up.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/TB_Zoom_Glyph.tiff TB_Zoom_Glyph.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeHardcover.tiff Viewer_G_LargeHardcover.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeSoftcover.tiff Viewer_G_LargeSoftcover.tiff
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_ScaleToFit.tiff Viewer_G_ScaleToFit.tiff
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/piece-edit.png piece-edit.png
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/button-edit.png button-edit.png
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/floppy.tif floppy.tif
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/bg.jpg bg.jpg
+cCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.tif bg.tif
+cCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/bg.png bg.png
+cProcessPCH /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch.gch Toucan_Tiger_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController.o /Users/will/Desktop/Toucan/MainController.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MyImageObject.o /Users/will/Desktop/Toucan/MyImageObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SlideShowObject.o /Users/will/Desktop/Toucan/SlideShowObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/main.o /Users/will/Desktop/Toucan/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/NSObject+DeallocControl.o /Users/will/Desktop/Toucan/NSObject+DeallocControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/UKDockProgressIndicator.o /Users/will/Desktop/Toucan/UKDockProgressIndicator.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SendMail.o /Users/will/Desktop/Toucan/SendMail.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/DesktopImage.o /Users/will/Desktop/Toucan/DesktopImage.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TableView.o /Users/will/Desktop/Toucan/MainController+TableView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLDownload.o /Users/will/Desktop/Toucan/MainController+URLDownload.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SaveImages.o /Users/will/Desktop/Toucan/MainController+SaveImages.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLConnection.o /Users/will/Desktop/Toucan/MainController+URLConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageBrowser.o /Users/will/Desktop/Toucan/MainController+ImageBrowser.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Regex.o /Users/will/Desktop/Toucan/MainController+Regex.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Utilities.o /Users/will/Desktop/Toucan/MainController+Utilities.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SplitView.o /Users/will/Desktop/Toucan/MainController+SplitView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+UserPreferences.o /Users/will/Desktop/Toucan/MainController+UserPreferences.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageView.o /Users/will/Desktop/Toucan/MainController+ImageView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TabSearch.o /Users/will/Desktop/Toucan/MainController+TabSearch.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomView.o /Users/will/Desktop/Toucan/CustomView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSplitView.o /Users/will/Desktop/Toucan/CustomSplitView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomScroller.o /Users/will/Desktop/Toucan/CustomScroller.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomCell.o /Users/will/Desktop/Toucan/CustomCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomProgressIndicator.o /Users/will/Desktop/Toucan/CustomProgressIndicator.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+cLd /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger normal x86_64
+cPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/Sparkle.framework "/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework"
+cPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/BWToolkitFramework.framework /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework
+cPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/Growl-WithInstaller.framework /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework
+cPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/RegexKit.framework /Developer/Local/Frameworks/RegexKit.framework
+cTouch /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app
+
+N/Developer/Local/Frameworks/RegexKit.framework
+c000000004AC567AE00000000000000CC
+t1254451118
+s204
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSArray.h
+c00000000479465A80000000000000B02
+t1200907688
+s2818
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSData.h
+c00000000479465A8000000000000093C
+t1200907688
+s2364
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+i<stdarg.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSDictionary.h
+c00000000479465A80000000000000A79
+t1200907688
+s2681
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSObject.h
+c00000000479C602D0000000000000B92
+t1201430573
+s2962
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSSet.h
+c00000000479465A90000000000000923
+t1200907689
+s2339
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+i<stdarg.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/NSString.h
+c00000000479E7B280000000000001A84
+t1201568552
+s6788
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKit.h>
+i<stdarg.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RKCache.h
+c00000000479E79CC0000000000000F03
+t1201568204
+s3843
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKitDefines.h>
+i<RegexKit/RegexKitTypes.h>
+i<dlfcn.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RKEnumerator.h
+c00000000479975040000000000000E2D
+t1201239300
+s3629
+i<Foundation/Foundation.h>
+i<RegexKit/RKRegex.h>
+i<stdarg.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RKRegex.h
+c00000000479C522E000000000000160F
+t1201426990
+s5647
+i<RegexKit/RegexKitDefines.h>
+i<RegexKit/RegexKitTypes.h>
+i<RegexKit/RegexKit.h>
+i<RegexKit/pcre.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RKUtility.h
+c00000000479465AB0000000000000A2D
+t1200907691
+s2605
+i<Foundation/Foundation.h>
+i<RegexKit/RegexKitDefines.h>
+i<RegexKit/RegexKitTypes.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RegexKit.h
+c00000000479465AC0000000000000A7E
+t1200907692
+s2686
+i<RegexKit/RegexKitDefines.h>
+i<RegexKit/RegexKitTypes.h>
+i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+i<RegexKit/pcre.h>
+i<RegexKit/RKCache.h>
+i<RegexKit/RKRegex.h>
+i<RegexKit/RKEnumerator.h>
+i<RegexKit/RKUtility.h>
+i<RegexKit/NSArray.h>
+i<RegexKit/NSData.h>
+i<RegexKit/NSDictionary.h>
+i<RegexKit/NSObject.h>
+i<RegexKit/NSSet.h>
+i<RegexKit/NSString.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RegexKitDefines.h
+c00000000479E767000000000000016DB
+t1201567344
+s5851
+i<mach-o/loader.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/RegexKitTypes.h
+c00000000479E6E050000000000002607
+t1201565189
+s9735
+
+N/Developer/Local/Frameworks/RegexKit.framework/Headers/pcre.h
+c00000000479E4F930000000000003096
+t1201557395
+s12438
+i<stdlib.h>
+
+N/Developer/Local/Frameworks/RegexKit.framework/RegexKit
+c00000000479F0B960000000000173048
+t1201605526
+s1519688
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004AC35DB000000000000000EE
+t1254317488
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004628C8C90000000000001504
+t1177077961
+s5380
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004AC35DB000000000000005BF
+t1254317488
+s1471
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000462EB9B00000000000001382
+t1177467312
+s4994
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004628F95C00000000000000BA
+t1177090396
+s186
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/dlfcn.h
+c00000000463BAA0D0000000000000901
+t1178315277
+s2305
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach-o/loader.h
+c0000000046F232B5000000000000C71B
+t1190277813
+s50971
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/cdefs.h
+c0000000046F2351300000000000030D0
+t1190278419
+s12496
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004B56947C00000000000010D9
+t1263965308
+s4313
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B7D589B00000000000000EE
+t1266505883
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/dlfcn.h
+c00000000487581E60000000000000AC7
+t1215660518
+s2759
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/mach-o/loader.h
+c00000000487581E5000000000000D0E5
+t1215660517
+s53477
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/objc/runtime.h
+c0000000047BABD020000000000004FE4
+t1203420418
+s20452
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/cdefs.h
+c0000000047E883CF0000000000004990
+t1206420431
+s18832
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004B56949A00000000000010D9
+t1263965338
+s4313
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A1249D4000000000000A5F0
+t1242712532
+s42480
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B6A77D00000000000CF0BF0
+t1265268688
+s13569008
+
+N/Users/will/Desktop/Toucan/ATB_Crop_Glyph_Sm.tiff
+c000000004B590B070000000000000224
+t1264126727
+s548
+
+N/Users/will/Desktop/Toucan/AccountPreferences.tiff
+c000000004BA0E5460000000000005398
+t1268835654
+s21400
+
+N/Users/will/Desktop/Toucan/BG2.tif
+c000000004BC4F25B00000000006D14E2
+t1271198299
+s7148770
+
+N/Users/will/Desktop/Toucan/CB_G_ActualSize.tiff
+c000000004B590AEB0000000000000266
+t1264126699
+s614
+
+N/Users/will/Desktop/Toucan/CustomApplication.h
+c000000004BC4CC7A00000000000000D1
+t1271188602
+s209
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomApplication.m
+c000000004BC4CC960000000000000138
+t1271188630
+s312
+i"CustomApplication.h"
+
+N/Users/will/Desktop/Toucan/CustomCell.h
+c000000004BC5CECA00000000000000C9
+t1271254730
+s201
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomCell.m
+c000000004BC5D12000000000000002AB
+t1271255328
+s683
+i"CustomCell.h"
+
+N/Users/will/Desktop/Toucan/CustomNSCell.h
+c000000004BC4C0B800000000000000C0
+t1271185592
+s192
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomNSCell.m
+c000000004BC4C4130000000000000131
+t1271186451
+s305
+i"CustomNSCell.h"
+
+N/Users/will/Desktop/Toucan/CustomNSControl.h
+c000000004BC4BDE400000000000000C9
+t1271184868
+s201
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomNSControl.m
+c000000004BC4C2CC000000000000014D
+t1271186124
+s333
+i"CustomNSControl.h"
+
+N/Users/will/Desktop/Toucan/CustomProgressIndicator.h
+c000000004BC4CB6600000000000000E3
+t1271188326
+s227
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomProgressIndicator.m
+c000000004BC4D2030000000000000122
+t1271190019
+s290
+i"CustomProgressIndicator.h"
+
+N/Users/will/Desktop/Toucan/CustomScroller.h
+c000000004BC5E8C500000000000000C9
+t1271261381
+s201
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomScroller.m
+c000000004BC5E8C50000000000000108
+t1271261381
+s264
+i"CustomScroller.h"
+
+N/Users/will/Desktop/Toucan/CustomSearchField.h
+c000000004BC4C19500000000000000D1
+t1271185813
+s209
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomSearchField.m
+c000000004BC4C2050000000000000181
+t1271185925
+s385
+i"CustomSearchField.h"
+
+N/Users/will/Desktop/Toucan/CustomSplitView.h
+c000000004BC3CE5900000000000000CB
+t1271123545
+s203
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomSplitView.m
+c000000004BC48DFF000000000000012C
+t1271172607
+s300
+i"CustomSplitView.h"
+
+N/Users/will/Desktop/Toucan/CustomSubView.h
+c000000004BC4F0C400000000000000D2
+t1271197892
+s210
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomSubView.m
+c000000004BC4F0A6000000000000042C
+t1271197862
+s1068
+i"CustomSubView.h"
+
+N/Users/will/Desktop/Toucan/CustomTableView.h
+c000000004BC4E45500000000000000CB
+t1271194709
+s203
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomTableView.m
+c000000004BC4F47F0000000000000195
+t1271198847
+s405
+i"CustomTableView.h"
+
+N/Users/will/Desktop/Toucan/CustomView.h
+c000000004BC3E46F00000000000000CC
+t1271129199
+s204
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomView.m
+c000000004BC5E9B90000000000000425
+t1271261625
+s1061
+i"CustomView.h"
+
+N/Users/will/Desktop/Toucan/CustomWindow.h
+c000000004BC5D1AE00000000000000C2
+t1271255470
+s194
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomWindow.m
+c000000004BC5D1A200000000000000B8
+t1271255458
+s184
+i"CustomWindow.h"
+
+N/Users/will/Desktop/Toucan/CustomeScroller.h
+c000000004BC4BBB500000000000000CA
+t1271184309
+s202
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/CustomeScroller.m
+c000000004BC4BD29000000000000010A
+t1271184681
+s266
+i"CustomeScroller.h"
+
+N/Users/will/Desktop/Toucan/DesktopImage.h
+c000000004BB0B2AA0000000000000121
+t1269871274
+s289
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/DesktopImage.m
+c000000004BB0B3000000000000000770
+t1269871360
+s1904
+i"DesktopImage.h"
+
+N/Users/will/Desktop/Toucan/Download _256.png
+c000000004ACA729E0000000000005935
+t1254781598
+s22837
+
+N/Users/will/Desktop/Toucan/Download.png
+c000000004ACA6F1B0000000000000DDF
+t1254780699
+s3551
+
+N/Users/will/Desktop/Toucan/English.lproj/Localizable.strings
+c000000004BB4DD890000000000000E7A
+t1270144393
+s3706
+
+N/Users/will/Desktop/Toucan/ExoApps_Pub_Key
+c000000004990B284000000000000049A
+t1234219652
+s1178
+
+N/Users/will/Desktop/Toucan/Extra HD.png
+c000000004B9924BE00000000000184D5
+t1268327614
+s99541
+
+N/Users/will/Desktop/Toucan/Extra HD2.tif
+c000000004B9FA74C00000000001F13CC
+t1268754252
+s2036684
+
+N/Users/will/Desktop/Toucan/French.lproj/Localizable.strings
+c000000004BB4DD840000000000000FF1
+t1270144388
+s4081
+
+N/Users/will/Desktop/Toucan/Icon.icns
+c000000004ACD5DAE0000000000039FAD
+t1254972846
+s237485
+
+N/Users/will/Desktop/Toucan/InfoPlist.strings
+c00000000497A1C76000000000000005C
+t1232739446
+s92
+
+N/Users/will/Desktop/Toucan/Info_G_Add.tiff
+c000000004B590AEC00000000000003D8
+t1264126700
+s984
+
+N/Users/will/Desktop/Toucan/LT_G_FitToWindow.tiff
+c000000004B590AF10000000000000266
+t1264126705
+s614
+
+N/Users/will/Desktop/Toucan/ListView.h
+c000000004BC5F35B000000000000010B
+t1271264091
+s267
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/ListView.m
+c000000004BC5F3E60000000000000191
+t1271264230
+s401
+i"ListView.h"
+
+N/Users/will/Desktop/Toucan/ListView.xib
+c000000004BC5F55A0000000000006D25
+t1271264602
+s27941
+
+N/Users/will/Desktop/Toucan/MainController+ImageBrowser.h
+c000000004BB4AB4C000000000000020D
+t1270131532
+s525
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"MyImageObject.h"
+
+N/Users/will/Desktop/Toucan/MainController+ImageBrowser.m
+c000000004BB4AB540000000000000E89
+t1270131540
+s3721
+i"MainController+ImageBrowser.h"
+
+N/Users/will/Desktop/Toucan/MainController+ImageView.h
+c000000004BB0B85F0000000000000138
+t1269872735
+s312
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+
+N/Users/will/Desktop/Toucan/MainController+ImageView.m
+c000000004BB7372A0000000000000C1F
+t1270298410
+s3103
+i"MainController+ImageView.h"
+
+N/Users/will/Desktop/Toucan/MainController+Regex.h
+c000000004BB4AA3D000000000000012F
+t1270131261
+s303
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"MainController+URLConnection.h"
+
+N/Users/will/Desktop/Toucan/MainController+Regex.m
+c000000004BE6D328000000000000139F
+t1273418536
+s5023
+i"MainController+Regex.h"
+
+N/Users/will/Desktop/Toucan/MainController+SaveImages.h
+c000000004BB0C5D60000000000000263
+t1269876182
+s611
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"MyImageObject.h"
+i"MainController+TableView.h"
+i"MainController+URLDownload.h"
+i"MainController+Utilities.h"
+
+N/Users/will/Desktop/Toucan/MainController+SaveImages.m
+c000000004BB7B03A00000000000024D5
+t1270329402
+s9429
+i"MainController+SaveImages.h"
+
+N/Users/will/Desktop/Toucan/MainController+SplitView.h
+c000000004BC3D1870000000000000217
+t1271124359
+s535
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+
+N/Users/will/Desktop/Toucan/MainController+SplitView.m
+c000000004BC1D49E0000000000000240
+t1270994078
+s576
+i"MainController+SplitView.h"
+
+N/Users/will/Desktop/Toucan/MainController+TabSearch.h
+c000000004BC35F6D0000000000000125
+t1271095149
+s293
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+
+N/Users/will/Desktop/Toucan/MainController+TabSearch.m
+c000000004BC3948C00000000000005D7
+t1271108748
+s1495
+i"MainController+TabSearch.h"
+i"MainController+Utilities.h"
+
+N/Users/will/Desktop/Toucan/MainController+TableView.h
+c000000004BB0B85F000000000000022C
+t1269872735
+s556
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"MainController+Utilities.h"
+
+N/Users/will/Desktop/Toucan/MainController+TableView.m
+c000000004BC390920000000000002B26
+t1271107730
+s11046
+i"MainController+TableView.h"
+
+N/Users/will/Desktop/Toucan/MainController+URLConnection.h
+c000000004BB0B85F000000000000028D
+t1269872735
+s653
+i<Cocoa/Cocoa.h>
+i<RegexKit/RegexKit.h>
+i"MainController.h"
+i"MyImageObject.h"
+i"MainController+Regex.h"
+
+N/Users/will/Desktop/Toucan/MainController+URLConnection.m
+c000000004BD58C350000000000000E18
+t1272286261
+s3608
+i"MainController+URLConnection.h"
+
+N/Users/will/Desktop/Toucan/MainController+URLDownload.h
+c000000004BB0C4D500000000000003A6
+t1269875925
+s934
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"MainController+TableView.h"
+i"MainController+Utilities.h"
+
+N/Users/will/Desktop/Toucan/MainController+URLDownload.m
+c000000004BB74C240000000000002B07
+t1270303780
+s11015
+i"MainController+URLDownload.h"
+
+N/Users/will/Desktop/Toucan/MainController+UserPreferences.h
+c000000004BB0B85F000000000000011D
+t1269872735
+s285
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+
+N/Users/will/Desktop/Toucan/MainController+UserPreferences.m
+c000000004BB1319D0000000000000EE1
+t1269903773
+s3809
+i"MainController+UserPreferences.h"
+
+N/Users/will/Desktop/Toucan/MainController+Utilities.h
+c000000004BBE27740000000000000377
+t1270753140
+s887
+i<Cocoa/Cocoa.h>
+i"MainController.h"
+i"UKDockProgressIndicator.h"
+i"MainController+TableView.h"
+
+N/Users/will/Desktop/Toucan/MainController+Utilities.m
+c000000004BD4C4F600000000000019AF
+t1272235254
+s6575
+i"MainController+Utilities.h"
+
+N/Users/will/Desktop/Toucan/MainController.h
+c000000004BE6D240000000000000158E
+t1273418304
+s5518
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i<BWToolkitFramework/BWToolkitFramework.h>
+i<Growl-WithInstaller/Growl.h>
+i"SlideShowObject.h"
+
+N/Users/will/Desktop/Toucan/MainController.m
+c000000004BE6D22A0000000000007822
+t1273418282
+s30754
+i"MainController.h"
+i"MyImageObject.h"
+i"SlideShowObject.h"
+i<RegexKit/RegexKit.h>
+i"SendMail.h"
+i"DesktopImage.h"
+i"NSObject+DeallocControl.h"
+i"MainController+TableView.h"
+i"MainController+URLDownload.h"
+i"MainController+SaveImages.h"
+i"MainController+URLConnection.h"
+i"MainController+ImageBrowser.h"
+i"MainController+Utilities.h"
+i"MainController+SplitView.h"
+i"MainController+UserPreferences.h"
+i"MainController+ImageView.h"
+i"MainController+TabSearch.h"
+i"CustomScroller.h"
+
+N/Users/will/Desktop/Toucan/MainMenu.xib
+c000000004BE6D2880000000000091A74
+t1273418376
+s596596
+
+N/Users/will/Desktop/Toucan/MiniProgressGradient.png
+c000000004273B99B00000000000000CD
+t1114880411
+s205
+
+N/Users/will/Desktop/Toucan/MyImageObject.h
+c000000004BAF73CF000000000000029F
+t1269789647
+s671
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/will/Desktop/Toucan/MyImageObject.m
+c000000004BBB4F4900000000000003AC
+t1270566729
+s940
+i"MyImageObject.h"
+
+N/Users/will/Desktop/Toucan/NSObject+DeallocControl.h
+c000000004BB0B85F0000000000000840
+t1269872735
+s2112
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/NSObject+DeallocControl.m
+c000000004BB0B85F0000000000000E5E
+t1269872735
+s3678
+i"NSObject+DeallocControl.h"
+i<objc/runtime.h>
+
+N/Users/will/Desktop/Toucan/Remove.tiff
+c000000004AD390800000000000001DC2
+t1255379072
+s7618
+
+N/Users/will/Desktop/Toucan/SendMail.h
+c000000004BB4C0700000000000000110
+t1270136944
+s272
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/SendMail.m
+c000000004BB4DDF70000000000000626
+t1270144503
+s1574
+i"SendMail.h"
+
+N/Users/will/Desktop/Toucan/SlideShowObject.h
+c000000004BB28DCB000000000000022F
+t1269992907
+s559
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/will/Desktop/Toucan/SlideShowObject.m
+c000000004BBD183000000000000005CA
+t1270683696
+s1482
+i"SlideShowObject.h"
+
+N/Users/will/Desktop/Toucan/Sort_Arrow_G_Down.tiff
+c000000004B590AEA000000000000018A
+t1264126698
+s394
+
+N/Users/will/Desktop/Toucan/Sort_Arrow_G_Up.tiff
+c000000004B590AEA0000000000000192
+t1264126698
+s402
+
+N/Users/will/Desktop/Toucan/TB_Zoom_Glyph.tiff
+c000000004B590AEF0000000000000FE8
+t1264126703
+s4072
+
+N/Users/will/Desktop/Toucan/ToolbarOpenTemplate.png
+c000000004AADBBF800000000000001AD
+t1252899832
+s429
+
+N/Users/will/Desktop/Toucan/Toucan_Tiger_Prefix.pch
+c000000004ACD192C0000000000000199
+t1254955308
+s409
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/Trash.png
+c000000004B9D9E9C000000000004C90A
+t1268620956
+s313610
+
+N/Users/will/Desktop/Toucan/UKDockProgressIndicator.h
+c000000004BAA24170000000000000658
+t1269441559
+s1624
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/UKDockProgressIndicator.m
+c000000004BB0BA500000000000000D89
+t1269873232
+s3465
+i"UKDockProgressIndicator.h"
+
+N/Users/will/Desktop/Toucan/UserDefaults.plist
+c000000004B9BEA6E0000000000000222
+t1268509294
+s546
+
+N/Users/will/Desktop/Toucan/Viewer_G_FitToWindow.tiff
+c000000004B590AED0000000000000EF2
+t1264126701
+s3826
+
+N/Users/will/Desktop/Toucan/Viewer_G_LargeHardcover.tiff
+c000000004B590AEB0000000000000264
+t1264126699
+s612
+
+N/Users/will/Desktop/Toucan/Viewer_G_LargeSoftcover.tiff
+c000000004B590AEC00000000000002BA
+t1264126700
+s698
+
+N/Users/will/Desktop/Toucan/Viewer_G_ScaleToFit.tiff
+c000000004B590AEB0000000000000270
+t1264126699
+s624
+
+N/Users/will/Desktop/Toucan/app.icns
+c000000004BA0DFEB0000000000061BB7
+t1268834283
+s400311
+
+N/Users/will/Desktop/Toucan/bg.jpg
+c000000004BC396A0000000000002E247
+t1271109280
+s188999
+
+N/Users/will/Desktop/Toucan/bg.png
+c000000004BC3D5310000000000002088
+t1271125297
+s8328
+
+N/Users/will/Desktop/Toucan/bg.tif
+c000000004BC3E67800000000006D0F6E
+t1271129720
+s7147374
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app
+t1273853624
+s102
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks/BWToolkitFramework.framework
+t1273853624
+s204
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks/Growl-WithInstaller.framework
+t1273853624
+s204
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks/RegexKit.framework
+t1273853624
+s204
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks/Sparkle.framework
+t1273853624
+s204
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Info.plist
+t1273853613
+s1207
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger
+t1273853623
+s207320
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/PkgInfo
+t1273853613
+s8
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ATB_Crop_Glyph_Sm.tiff
+t1273853614
+s548
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/AccountPreferences.tiff
+t1273853614
+s21400
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/BG2.tif
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/CB_G_ActualSize.tiff
+t1273853614
+s614
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Download _256.png
+t1273853613
+s22837
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Download.png
+t1273853613
+s3551
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/English.lproj/Localizable.strings
+t1273853614
+s7412
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ExoApps_Pub_Key
+t1273853613
+s1178
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD.png
+t1273853614
+s99541
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD2.tif
+t1273853614
+s2036684
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/French.lproj/Localizable.strings
+t1273853614
+s8062
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Icon.icns
+t1273853613
+s237485
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/InfoPlist.strings
+t1273853614
+s92
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Info_G_Add.tiff
+t1273853614
+s984
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/LT_G_FitToWindow.tiff
+t1273853614
+s614
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ListView.nib
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/MainMenu.nib
+t1273853616
+s157678
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/MiniProgressGradient.png
+t1273853614
+s205
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Remove.tiff
+t1273853614
+s7618
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Down.tiff
+t1273853615
+s394
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Up.tiff
+t1273853615
+s402
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/TB_Zoom_Glyph.tiff
+t1273853615
+s4072
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ToolbarOpenTemplate.png
+t1273853613
+s429
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Trash.png
+t1273853614
+s313610
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/UserDefaults.plist
+t1273853614
+s546
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_FitToWindow.tiff
+t1273853614
+s3826
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeHardcover.tiff
+t1273853615
+s612
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeSoftcover.tiff
+t1273853615
+s698
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_ScaleToFit.tiff
+t1273853615
+s624
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/app.icns
+t1273853614
+s400311
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.jpg
+t1273853615
+s188999
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.png
+t1273853615
+s8328
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.tif
+t1273853615
+s7147374
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/button-edit.png
+t1273853615
+s328
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/closebox.png
+t1273853614
+s1129
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateLeft.tif
+t1273853614
+s1246
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateRight.tif
+t1273853614
+s1242
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/delete.png
+t1273853614
+s1860
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/downloads.icns
+t1273853613
+s36215
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/floppy.tif
+t1273853615
+s75722
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/piece-edit.png
+t1273853615
+s480
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/save-icon.png
+t1273853614
+s10657
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/sl-status_import.tiff
+t1273853614
+s3846
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_larger.tif
+t1273853614
+s3572
+
+N/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_smaller.tif
+t1273853614
+s3488
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomApplication.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomCell.o
+t1273853623
+s20452
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomNSCell.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomNSControl.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomProgressIndicator.o
+t1273853623
+s13792
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomScroller.o
+t1273853623
+s14040
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSearchField.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSplitView.o
+t1273853623
+s14160
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSubView.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomTableView.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomView.o
+t1273853623
+s19244
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomWindow.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomeScroller.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/DesktopImage.o
+t1273853621
+s13196
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/ListView.o
+t2
+s0
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageBrowser.o
+t1273853622
+s53308
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageView.o
+t1273853623
+s45904
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Regex.o
+t1273853622
+s49412
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SaveImages.o
+t1273853622
+s63744
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SplitView.o
+t1273853622
+s37908
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TabSearch.o
+t1273853623
+s42832
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TableView.o
+t1273853622
+s77888
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLConnection.o
+t1273853622
+s47880
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLDownload.o
+t1273853622
+s70980
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+UserPreferences.o
+t1273853623
+s45060
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Utilities.o
+t1273853622
+s65676
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController.o
+t1273853621
+s176972
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MyImageObject.o
+t1273853621
+s23624
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/NSObject+DeallocControl.o
+t1273853621
+s9504
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SendMail.o
+t1273853621
+s16184
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SlideShowObject.o
+t1273853621
+s24160
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/Toucan_Tiger.LinkFileList
+c000000004BED76AD0000000000000ACC
+t1273853613
+s2764
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/UKDockProgressIndicator.o
+t1273853621
+s32516
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/main.o
+t1273853621
+s4752
+
+N/Users/will/Desktop/Toucan/button-edit.png
+c000000004921D06A0000000000000148
+t1226952810
+s328
+
+N/Users/will/Desktop/Toucan/closebox.png
+c000000004921D06A0000000000000469
+t1226952810
+s1129
+
+N/Users/will/Desktop/Toucan/cursorRotateLeft.tif
+c000000004B590AE500000000000004DE
+t1264126693
+s1246
+
+N/Users/will/Desktop/Toucan/cursorRotateRight.tif
+c000000004B590AE500000000000004DA
+t1264126693
+s1242
+
+N/Users/will/Desktop/Toucan/delete.png
+c000000004921D06A0000000000000744
+t1226952810
+s1860
+
+N/Users/will/Desktop/Toucan/downloads.icns
+c00000000480949CA0000000000008D77
+t1208568266
+s36215
+
+N/Users/will/Desktop/Toucan/floppy.tif
+c000000004BA3C35B00000000000127CA
+t1269023579
+s75722
+
+N/Users/will/Desktop/Toucan/main.m
+c000000004B5B407400000000000000F5
+t1264271476
+s245
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Desktop/Toucan/piece-edit.png
+c000000004921D06C00000000000001E0
+t1226952812
+s480
+
+N/Users/will/Desktop/Toucan/save-icon.png
+c000000004B992AE200000000000029A1
+t1268329186
+s10657
+
+N/Users/will/Desktop/Toucan/sl-status_import.tiff
+c000000004B590B0D0000000000000F06
+t1264126733
+s3846
+
+N/Users/will/Desktop/Toucan/zoom_larger.tif
+c000000004B590AE50000000000000DF4
+t1264126693
+s3572
+
+N/Users/will/Desktop/Toucan/zoom_smaller.tif
+c000000004B590AE50000000000000DA0
+t1264126693
+s3488
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework
+c00000000498F15B800000000000000CC
+t1234113976
+s204
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework
+c000000004BA3E79300000000000000EE
+t1269032851
+s238
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/BWToolkitFramework
+c000000004B596EAB00000000000E843C
+t1264152235
+s951356
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWAnchoredButton.h
+c000000004B596EA40000000000000177
+t1264152228
+s375
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWAnchoredButtonBar.h
+c000000004B596EA400000000000002A0
+t1264152228
+s672
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWAnchoredButtonCell.h
+c000000004B596EA400000000000000F2
+t1264152228
+s242
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWAnchoredPopUpButton.h
+c000000004B596EA40000000000000186
+t1264152228
+s390
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWAnchoredPopUpButtonCell.h
+c000000004B596EA40000000000000100
+t1264152228
+s256
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWGradientBox.h
+c000000004B596EA400000000000002A7
+t1264152228
+s679
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWHyperlinkButton.h
+c000000004B596EA4000000000000012E
+t1264152228
+s302
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWHyperlinkButtonCell.h
+c000000004B596EA400000000000000F2
+t1264152228
+s242
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWInsetTextField.h
+c000000004B596EA400000000000000E8
+t1264152228
+s232
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWSelectableToolbar.h
+c000000004B596EA400000000000004C2
+t1264152228
+s1218
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWSheetController.h
+c000000004B596EA400000000000003C3
+t1264152228
+s963
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWSplitView.h
+c000000004B596EA400000000000005F0
+t1264152228
+s1520
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWStyledTextField.h
+c000000004B596EA400000000000002A3
+t1264152228
+s675
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWStyledTextFieldCell.h
+c000000004B596EA40000000000000239
+t1264152228
+s569
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTexturedSlider.h
+c000000004B596EA400000000000001EF
+t1264152228
+s495
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTexturedSliderCell.h
+c000000004B596EA4000000000000012F
+t1264152228
+s303
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTokenAttachmentCell.h
+c000000004B596EA4000000000000011E
+t1264152228
+s286
+i<Cocoa/Cocoa.h>
+i"NSTokenAttachmentCell.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTokenField.h
+c000000004B596EA400000000000000E1
+t1264152228
+s225
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTokenFieldCell.h
+c000000004B596EA400000000000000ED
+t1264152228
+s237
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWToolbarItem.h
+c000000004B596EA40000000000000100
+t1264152228
+s256
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWToolbarShowColorsItem.h
+c000000004B596EA400000000000000F8
+t1264152228
+s248
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWToolbarShowFontsItem.h
+c000000004B596EA400000000000000F7
+t1264152228
+s247
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWToolkitFramework.h
+c000000004B596EA400000000000005B8
+t1264152228
+s1464
+i"BWAnchoredButton.h"
+i"BWAnchoredButtonBar.h"
+i"BWAnchoredButtonCell.h"
+i"BWAnchoredPopUpButton.h"
+i"BWAnchoredPopUpButtonCell.h"
+i"BWGradientBox.h"
+i"BWHyperlinkButton.h"
+i"BWHyperlinkButtonCell.h"
+i"BWInsetTextField.h"
+i"BWSelectableToolbar.h"
+i"BWSheetController.h"
+i"BWSplitView.h"
+i"BWStyledTextField.h"
+i"BWStyledTextFieldCell.h"
+i"BWTexturedSlider.h"
+i"BWTexturedSliderCell.h"
+i"BWTokenAttachmentCell.h"
+i"BWTokenField.h"
+i"BWTokenFieldCell.h"
+i"BWToolbarItem.h"
+i"BWToolbarShowColorsItem.h"
+i"BWToolbarShowFontsItem.h"
+i"BWTransparentButton.h"
+i"BWTransparentButtonCell.h"
+i"BWTransparentCheckbox.h"
+i"BWTransparentCheckboxCell.h"
+i"BWTransparentPopUpButton.h"
+i"BWTransparentPopUpButtonCell.h"
+i"BWTransparentScroller.h"
+i"BWTransparentScrollView.h"
+i"BWTransparentSlider.h"
+i"BWTransparentSliderCell.h"
+i"BWTransparentTableView.h"
+i"BWTransparentTableViewCell.h"
+i"BWTransparentTextFieldCell.h"
+i"BWUnanchoredButton.h"
+i"BWUnanchoredButtonCell.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentButton.h
+c000000004B596EA400000000000000EB
+t1264152228
+s235
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentButtonCell.h
+c000000004B596EA40000000000000117
+t1264152228
+s279
+i<Cocoa/Cocoa.h>
+i"BWTransparentButton.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentCheckbox.h
+c000000004B596EA400000000000000EF
+t1264152228
+s239
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentCheckboxCell.h
+c000000004B596EA4000000000000011D
+t1264152228
+s285
+i<Cocoa/Cocoa.h>
+i"BWTransparentCheckbox.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentPopUpButton.h
+c000000004B596EA400000000000000FB
+t1264152228
+s251
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentPopUpButtonCell.h
+c000000004B596EA40000000000000106
+t1264152228
+s262
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentScrollView.h
+c000000004B596EA400000000000000F7
+t1264152228
+s247
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentScroller.h
+c000000004B596EA40000000000000102
+t1264152228
+s258
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentSlider.h
+c000000004B596EA400000000000000EB
+t1264152228
+s235
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentSliderCell.h
+c000000004B596EA40000000000000107
+t1264152228
+s263
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentTableView.h
+c000000004B596EA400000000000000F4
+t1264152228
+s244
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentTableViewCell.h
+c000000004B596EA4000000000000011C
+t1264152228
+s284
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWTransparentTextFieldCell.h
+c000000004B596EA40000000000000100
+t1264152228
+s256
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWUnanchoredButton.h
+c000000004B596EA40000000000000102
+t1264152228
+s258
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/BWUnanchoredButtonCell.h
+c000000004B596EA4000000000000011E
+t1264152228
+s286
+i<Cocoa/Cocoa.h>
+i"BWAnchoredButtonCell.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework/Headers/NSTokenAttachmentCell.h
+c000000004B596EA40000000000000699
+t1264152228
+s1689
+i<Cocoa/Cocoa.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework
+c000000004AC1865200000000000000CC
+t1254196818
+s204
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework/Growl-WithInstaller
+c000000004AC186520000000000065960
+t1254196818
+s416096
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework/Headers/Growl.h
+c000000004AC186520000000000000082
+t1254196818
+s130
+i"GrowlDefines.h"
+i"GrowlApplicationBridge.h"
+i"GrowlApplicationBridge-Carbon.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework/Headers/GrowlApplicationBridge-Carbon.h
+c000000004AC18652000000000000867E
+t1254196818
+s34430
+i<sys/cdefs.h>
+i<Carbon/Carbon.h>
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework/Headers/GrowlApplicationBridge.h
+c000000004AC186520000000000006B1D
+t1254196818
+s27421
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+i"GrowlDefines.h"
+
+N/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework/Headers/GrowlDefines.h
+c000000004AC186520000000000003D75
+t1254196818
+s15733
+
+N/Users/will/Library/Frameworks/Sparkle.framework
+c00000000498F15B800000000000000CC
+t1234113976
+s204
+
+N/Users/will/Library/Frameworks/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-brjyvnytvxwzalgdxblyyuofngcx/Toucan_Tiger_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-fajwcpjatbfbcbbhcvbmxbqhdxki/Toucan_Tiger_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gyuvuyvpuuzcoichjbkesiwdddfb/Toucan_Tiger_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch.gch
+t1273853620
+s32801444
+
+NEnglish.lproj/Toucan_Tiger-Info.plist
+c000000004B709EE900000000000004D1
+t1265671913
+s1233
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295546429#295546429#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomApplication.o /Users/will/Desktop/Toucan/CustomApplication.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomCell.o /Users/will/Desktop/Toucan/CustomCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.566659
+e295546423.669805
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomCell.o
+x/Users/will/Desktop/Toucan/CustomCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@47"Compile /Users/will/Desktop/Toucan/CustomCell.m295546423#295546423#0(0"0(0#0#39"/Users/will/Desktop/Toucan/CustomCell.m4300911832#1724"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/CustomCell.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomCell.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomNSCell.o /Users/will/Desktop/Toucan/CustomNSCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomNSControl.o /Users/will/Desktop/Toucan/CustomNSControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomProgressIndicator.o /Users/will/Desktop/Toucan/CustomProgressIndicator.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.654882
+e295546423.731939
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomProgressIndicator.o
+x/Users/will/Desktop/Toucan/CustomProgressIndicator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/will/Desktop/Toucan/CustomProgressIndicator.m295546423#295546423#0(0"0(0#0#52"/Users/will/Desktop/Toucan/CustomProgressIndicator.m4300911832#1750"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/CustomProgressIndicator.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomProgressIndicator.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomScroller.o /Users/will/Desktop/Toucan/CustomScroller.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.462262
+e295546423.566567
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomScroller.o
+x/Users/will/Desktop/Toucan/CustomScroller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@51"Compile /Users/will/Desktop/Toucan/CustomScroller.m295546423#295546423#0(0"0(0#0#43"/Users/will/Desktop/Toucan/CustomScroller.m4300911832#1732"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/CustomScroller.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomScroller.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSearchField.o /Users/will/Desktop/Toucan/CustomSearchField.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSplitView.o /Users/will/Desktop/Toucan/CustomSplitView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.375494
+e295546423.462173
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSplitView.o
+x/Users/will/Desktop/Toucan/CustomSplitView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@52"Compile /Users/will/Desktop/Toucan/CustomSplitView.m295546423#295546423#0(0"0(0#0#44"/Users/will/Desktop/Toucan/CustomSplitView.m4300911832#1734"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/CustomSplitView.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSplitView.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomSubView.o /Users/will/Desktop/Toucan/CustomSubView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomTableView.o /Users/will/Desktop/Toucan/CustomTableView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomView.o /Users/will/Desktop/Toucan/CustomView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.286485
+e295546423.375402
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomView.o
+x/Users/will/Desktop/Toucan/CustomView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@47"Compile /Users/will/Desktop/Toucan/CustomView.m295546423#295546423#0(0"0(0#0#39"/Users/will/Desktop/Toucan/CustomView.m4300911832#1724"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/CustomView.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomView.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomWindow.o /Users/will/Desktop/Toucan/CustomWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/CustomeScroller.o /Users/will/Desktop/Toucan/CustomeScroller.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/DesktopImage.o /Users/will/Desktop/Toucan/DesktopImage.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.700534
+e295546421.811712
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/DesktopImage.o
+x/Users/will/Desktop/Toucan/DesktopImage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@49"Compile /Users/will/Desktop/Toucan/DesktopImage.m295546421#295546421#0(0"0(0#0#41"/Users/will/Desktop/Toucan/DesktopImage.m4300911832#1728"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/DesktopImage.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/DesktopImage.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/ListView.o /Users/will/Desktop/Toucan/ListView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageBrowser.o /Users/will/Desktop/Toucan/MainController+ImageBrowser.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.435590
+e295546422.704600
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageBrowser.o
+x/Users/will/Desktop/Toucan/MainController+ImageBrowser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@64"Compile /Users/will/Desktop/Toucan/MainController+ImageBrowser.m295546422#295546422#0(0"0(0#0#56"/Users/will/Desktop/Toucan/MainController+ImageBrowser.m4300911832#1758"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+ImageBrowser.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageBrowser.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageView.o /Users/will/Desktop/Toucan/MainController+ImageView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.006584
+e295546423.285197
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageView.o
+x/Users/will/Desktop/Toucan/MainController+ImageView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/will/Desktop/Toucan/MainController+ImageView.m295546423#295546423#0(0"0(0#0#53"/Users/will/Desktop/Toucan/MainController+ImageView.m4300911832#1752"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+ImageView.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+ImageView.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Regex.o /Users/will/Desktop/Toucan/MainController+Regex.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.437244
+e295546422.720138
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Regex.o
+x/Users/will/Desktop/Toucan/MainController+Regex.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@57"Compile /Users/will/Desktop/Toucan/MainController+Regex.m295546422#295546422#0(0"0(0#0#49"/Users/will/Desktop/Toucan/MainController+Regex.m4300911832#1744"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+Regex.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Regex.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SaveImages.o /Users/will/Desktop/Toucan/MainController+SaveImages.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.083790
+e295546422.437179
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SaveImages.o
+x/Users/will/Desktop/Toucan/MainController+SaveImages.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@62"Compile /Users/will/Desktop/Toucan/MainController+SaveImages.m295546422#295546422#0(0"0(0#0#54"/Users/will/Desktop/Toucan/MainController+SaveImages.m4300911832#1754"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+SaveImages.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SaveImages.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SplitView.o /Users/will/Desktop/Toucan/MainController+SplitView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.720226
+e295546422.974236
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SplitView.o
+x/Users/will/Desktop/Toucan/MainController+SplitView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/will/Desktop/Toucan/MainController+SplitView.m295546422#295546422#0(0"0(0#0#53"/Users/will/Desktop/Toucan/MainController+SplitView.m4300911832#1752"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+SplitView.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+SplitView.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TabSearch.o /Users/will/Desktop/Toucan/MainController+TabSearch.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546423.285307
+e295546423.654790
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TabSearch.o
+x/Users/will/Desktop/Toucan/MainController+TabSearch.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/will/Desktop/Toucan/MainController+TabSearch.m295546423#295546423#0(0"0(0#0#53"/Users/will/Desktop/Toucan/MainController+TabSearch.m4300911832#1752"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+TabSearch.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TabSearch.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TableView.o /Users/will/Desktop/Toucan/MainController+TableView.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.780365
+e295546422.083678
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TableView.o
+x/Users/will/Desktop/Toucan/MainController+TableView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/will/Desktop/Toucan/MainController+TableView.m295546421#295546422#0(0"0(0#0#53"/Users/will/Desktop/Toucan/MainController+TableView.m4300911832#1752"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+TableView.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+TableView.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLConnection.o /Users/will/Desktop/Toucan/MainController+URLConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.139635
+e295546422.435071
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLConnection.o
+x/Users/will/Desktop/Toucan/MainController+URLConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@65"Compile /Users/will/Desktop/Toucan/MainController+URLConnection.m295546422#295546422#0(0"0(0#0#57"/Users/will/Desktop/Toucan/MainController+URLConnection.m4300911832#1760"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+URLConnection.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLConnection.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLDownload.o /Users/will/Desktop/Toucan/MainController+URLDownload.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.811797
+e295546422.139498
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLDownload.o
+x/Users/will/Desktop/Toucan/MainController+URLDownload.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@63"Compile /Users/will/Desktop/Toucan/MainController+URLDownload.m295546421#295546422#0(0"0(0#0#55"/Users/will/Desktop/Toucan/MainController+URLDownload.m4300911832#1756"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+URLDownload.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+URLDownload.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+UserPreferences.o /Users/will/Desktop/Toucan/MainController+UserPreferences.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.974339
+e295546423.284980
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+UserPreferences.o
+x/Users/will/Desktop/Toucan/MainController+UserPreferences.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@67"Compile /Users/will/Desktop/Toucan/MainController+UserPreferences.m295546422#295546423#0(0"0(0#0#59"/Users/will/Desktop/Toucan/MainController+UserPreferences.m4300911832#1764"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+UserPreferences.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+UserPreferences.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Utilities.o /Users/will/Desktop/Toucan/MainController+Utilities.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546422.704690
+e295546423.006494
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Utilities.o
+x/Users/will/Desktop/Toucan/MainController+Utilities.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/will/Desktop/Toucan/MainController+Utilities.m295546422#295546423#0(0"0(0#0#53"/Users/will/Desktop/Toucan/MainController+Utilities.m4300911832#1752"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController+Utilities.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController+Utilities.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController.o /Users/will/Desktop/Toucan/MainController.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546420.721943
+e295546421.668051
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController.o
+x/Users/will/Desktop/Toucan/MainController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@51"Compile /Users/will/Desktop/Toucan/MainController.m295546420#295546421#0(0"0(0#0#43"/Users/will/Desktop/Toucan/MainController.m4300911832#1732"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MainController.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MainController.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MyImageObject.o /Users/will/Desktop/Toucan/MyImageObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546420.723023
+e295546421.269229
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MyImageObject.o
+x/Users/will/Desktop/Toucan/MyImageObject.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@50"Compile /Users/will/Desktop/Toucan/MyImageObject.m295546420#295546421#0(0"0(0#0#42"/Users/will/Desktop/Toucan/MyImageObject.m4300911832#1730"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/MyImageObject.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/MyImageObject.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/NSObject+DeallocControl.o /Users/will/Desktop/Toucan/NSObject+DeallocControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.459319
+e295546421.569057
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/NSObject+DeallocControl.o
+x/Users/will/Desktop/Toucan/NSObject+DeallocControl.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/will/Desktop/Toucan/NSObject+DeallocControl.m295546421#295546421#0(0"0(0#0#52"/Users/will/Desktop/Toucan/NSObject+DeallocControl.m4300911832#1750"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/NSObject+DeallocControl.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/NSObject+DeallocControl.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SendMail.o /Users/will/Desktop/Toucan/SendMail.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.668159
+e295546421.780271
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SendMail.o
+x/Users/will/Desktop/Toucan/SendMail.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@45"Compile /Users/will/Desktop/Toucan/SendMail.m295546421#295546421#0(0"0(0#0#37"/Users/will/Desktop/Toucan/SendMail.m4300911832#1720"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/SendMail.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SendMail.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SlideShowObject.o /Users/will/Desktop/Toucan/SlideShowObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.269320
+e295546421.388453
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SlideShowObject.o
+x/Users/will/Desktop/Toucan/SlideShowObject.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@52"Compile /Users/will/Desktop/Toucan/SlideShowObject.m295546421#295546421#0(0"0(0#0#44"/Users/will/Desktop/Toucan/SlideShowObject.m4300911832#1734"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/SlideShowObject.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/SlideShowObject.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/UKDockProgressIndicator.o /Users/will/Desktop/Toucan/UKDockProgressIndicator.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.569148
+e295546421.700440
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/UKDockProgressIndicator.o
+x/Users/will/Desktop/Toucan/UKDockProgressIndicator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/will/Desktop/Toucan/UKDockProgressIndicator.m295546421#295546421#0(0"0(0#0#52"/Users/will/Desktop/Toucan/UKDockProgressIndicator.m4300911832#1750"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/UKDockProgressIndicator.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/UKDockProgressIndicator.o0#
+
+CCompileC build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/main.o /Users/will/Desktop/Toucan/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546421.388548
+e295546421.459223
+r1
+xCompileC
+xbuild/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/main.o
+x/Users/will/Desktop/Toucan/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@41"Compile /Users/will/Desktop/Toucan/main.m295546421#295546421#0(0"0(0#0#33"/Users/will/Desktop/Toucan/main.m4300911832#1712"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -include /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch -c /Users/will/Desktop/Toucan/main.m -o /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/will/Desktop/Toucan/ListView.xib
+r0
+
+CCompileXIB /Users/will/Desktop/Toucan/MainMenu.xib
+s295546413.694235
+e295546416.891344
+r1
+xCompileXIB
+x/Users/will/Desktop/Toucan/MainMenu.xib
+o2010-05-14 12:13:36.300 ibtool[26907:607] invalid pixel format attribute
+o2010-05-14 12:13:36.306 ibtool[26907:607] invalid pixel format
+o2010-05-14 12:13:36.307 ibtool[26907:607] invalid context
+o/* com.apple.ibtool.document.notices */
+o/Users/will/Desktop/Toucan/MainMenu.xib:2167: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2171: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2155: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2230: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2198: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2169: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:1909: note: This view is clipping its content.
+o/Users/will/Desktop/Toucan/MainMenu.xib:2157: note: This view is clipping its content.
+lSLF07#2@23"CompileXIB MainMenu.xib295546413#295546416#0(930"2010-05-14 12:13:36.300 ibtool[26907:607] invalid pixel format attribute2010-05-14 12:13:36.306 ibtool[26907:607] invalid pixel format2010-05-14 12:13:36.307 ibtool[26907:607] invalid context/* com.apple.ibtool.document.notices *//Users/will/Desktop/Toucan/MainMenu.xib:2167: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2171: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2155: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2230: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2198: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2169: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:1909: note: This view is clipping its content./Users/will/Desktop/Toucan/MainMenu.xib:2157: note: This view is clipping its content.8(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2167#0#2167#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2171#0#2171#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2155#0#2155#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2230#0#2230#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2198#0#2198#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2169#0#2169#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#1909#0#1909#0#0"0(13@34"This view is clipping its content.295546416#18446744073709551615#0#0(6@39"/Users/will/Desktop/Toucan/MainMenu.xib295111176#2157#0#2157#0#0"0(0#0#39"/Users/will/Desktop/Toucan/MainMenu.xib4300911832#268"    cd /Users/will/Desktop/Toucan    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/MainMenu.nib /Users/will/Desktop/Toucan/MainMenu.xib0#
+
+CCopyPlistFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/UserDefaults.plist UserDefaults.plist
+s295546414.679432
+e295546414.742538
+r1
+xCopyPlistFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/UserDefaults.plist
+xUserDefaults.plist
+lSLF07#2@23"Copy UserDefaults.plist295546414#295546414#0(0"0(0#0#45"/Users/will/Desktop/Toucan/UserDefaults.plist4300911832#228"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist UserDefaults.plist --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s295546414.568143
+e295546414.592864
+r1
+xCopyStringsFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings295546414#295546414#0(0"0(0#0#60"/Users/will/Desktop/Toucan/English.lproj/Localizable.strings4300911832#348"    cd /Users/will/Desktop/Toucan    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/French.lproj/Localizable.strings French.lproj/Localizable.strings
+s295546414.592950
+e295546414.679345
+r1
+xCopyStringsFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/French.lproj/Localizable.strings
+xFrench.lproj/Localizable.strings
+lSLF07#2@37"Copy French.lproj/Localizable.strings295546414#295546414#0(0"0(0#0#59"/Users/will/Desktop/Toucan/French.lproj/Localizable.strings4300911832#346"    cd /Users/will/Desktop/Toucan    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 French.lproj/Localizable.strings --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/French.lproj0#
+
+CCopyStringsFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/InfoPlist.strings InfoPlist.strings
+s295546413.668025
+e295546414.568058
+r1
+xCopyStringsFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/InfoPlist.strings
+xInfoPlist.strings
+lSLF07#2@22"Copy InfoPlist.strings295546413#295546414#0(0"0(0#0#44"/Users/will/Desktop/Toucan/InfoPlist.strings4300911832#319"    cd /Users/will/Desktop/Toucan    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 InfoPlist.strings --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile "/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD2.tif" "Extra HD2.tif"
+s295546414.768411
+e295546414.785514
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD2.tif
+xExtra HD2.tif
+lSLF07#2@18"Copy Extra HD2.tif295546414#295546414#0(0"0(0#0#40"/Users/will/Desktop/Toucan/Extra HD2.tif4300911832#224"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "Extra HD2.tif" --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ATB_Crop_Glyph_Sm.tiff ATB_Crop_Glyph_Sm.tiff
+s295546414.959559
+e295546414.971352
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/ATB_Crop_Glyph_Sm.tiff
+xATB_Crop_Glyph_Sm.tiff
+lSLF07#2@27"Copy ATB_Crop_Glyph_Sm.tiff295546414#295546414#0(0"0(0#0#49"/Users/will/Desktop/Toucan/ATB_Crop_Glyph_Sm.tiff4300911832#231"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff ATB_Crop_Glyph_Sm.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/AccountPreferences.tiff AccountPreferences.tiff
+s295546414.786382
+e295546414.805772
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/AccountPreferences.tiff
+xAccountPreferences.tiff
+lSLF07#2@28"Copy AccountPreferences.tiff295546414#295546414#0(0"0(0#0#50"/Users/will/Desktop/Toucan/AccountPreferences.tiff4300911832#232"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff AccountPreferences.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/BG2.tif BG2.tif
+r0
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/CB_G_ActualSize.tiff CB_G_ActualSize.tiff
+s295546414.829356
+e295546414.896492
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/CB_G_ActualSize.tiff
+xCB_G_ActualSize.tiff
+lSLF07#2@25"Copy CB_G_ActualSize.tiff295546414#295546414#0(0"0(0#0#47"/Users/will/Desktop/Toucan/CB_G_ActualSize.tiff4300911832#229"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff CB_G_ActualSize.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Info_G_Add.tiff Info_G_Add.tiff
+s295546414.971447
+e295546414.983441
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Info_G_Add.tiff
+xInfo_G_Add.tiff
+lSLF07#2@20"Copy Info_G_Add.tiff295546414#295546414#0(0"0(0#0#42"/Users/will/Desktop/Toucan/Info_G_Add.tiff4300911832#224"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Info_G_Add.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/LT_G_FitToWindow.tiff LT_G_FitToWindow.tiff
+s295546414.896612
+e295546414.911591
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/LT_G_FitToWindow.tiff
+xLT_G_FitToWindow.tiff
+lSLF07#2@26"Copy LT_G_FitToWindow.tiff295546414#295546414#0(0"0(0#0#48"/Users/will/Desktop/Toucan/LT_G_FitToWindow.tiff4300911832#230"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff LT_G_FitToWindow.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Remove.tiff Remove.tiff
+s295546414.752277
+e295546414.768311
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Remove.tiff
+xRemove.tiff
+lSLF07#2@16"Copy Remove.tiff295546414#295546414#0(0"0(0#0#38"/Users/will/Desktop/Toucan/Remove.tiff4300911832#220"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Remove.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Down.tiff Sort_Arrow_G_Down.tiff
+s295546414.995172
+e295546415.007226
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Down.tiff
+xSort_Arrow_G_Down.tiff
+lSLF07#2@27"Copy Sort_Arrow_G_Down.tiff295546414#295546415#0(0"0(0#0#49"/Users/will/Desktop/Toucan/Sort_Arrow_G_Down.tiff4300911832#231"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Sort_Arrow_G_Down.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Up.tiff Sort_Arrow_G_Up.tiff
+s295546415.007323
+e295546415.019254
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Sort_Arrow_G_Up.tiff
+xSort_Arrow_G_Up.tiff
+lSLF07#2@25"Copy Sort_Arrow_G_Up.tiff295546415#295546415#0(0"0(0#0#47"/Users/will/Desktop/Toucan/Sort_Arrow_G_Up.tiff4300911832#229"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Sort_Arrow_G_Up.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/TB_Zoom_Glyph.tiff TB_Zoom_Glyph.tiff
+s295546415.019344
+e295546415.033445
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/TB_Zoom_Glyph.tiff
+xTB_Zoom_Glyph.tiff
+lSLF07#2@23"Copy TB_Zoom_Glyph.tiff295546415#295546415#0(0"0(0#0#45"/Users/will/Desktop/Toucan/TB_Zoom_Glyph.tiff4300911832#227"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff TB_Zoom_Glyph.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_FitToWindow.tiff Viewer_G_FitToWindow.tiff
+s295546414.911684
+e295546414.935567
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_FitToWindow.tiff
+xViewer_G_FitToWindow.tiff
+lSLF07#2@30"Copy Viewer_G_FitToWindow.tiff295546414#295546414#0(0"0(0#0#52"/Users/will/Desktop/Toucan/Viewer_G_FitToWindow.tiff4300911832#234"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Viewer_G_FitToWindow.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeHardcover.tiff Viewer_G_LargeHardcover.tiff
+s295546415.033534
+e295546415.048647
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeHardcover.tiff
+xViewer_G_LargeHardcover.tiff
+lSLF07#2@33"Copy Viewer_G_LargeHardcover.tiff295546415#295546415#0(0"0(0#0#55"/Users/will/Desktop/Toucan/Viewer_G_LargeHardcover.tiff4300911832#237"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Viewer_G_LargeHardcover.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeSoftcover.tiff Viewer_G_LargeSoftcover.tiff
+s295546415.048726
+e295546415.061430
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_LargeSoftcover.tiff
+xViewer_G_LargeSoftcover.tiff
+lSLF07#2@33"Copy Viewer_G_LargeSoftcover.tiff295546415#295546415#0(0"0(0#0#55"/Users/will/Desktop/Toucan/Viewer_G_LargeSoftcover.tiff4300911832#237"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Viewer_G_LargeSoftcover.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_ScaleToFit.tiff Viewer_G_ScaleToFit.tiff
+s295546415.061521
+e295546415.073304
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/Viewer_G_ScaleToFit.tiff
+xViewer_G_ScaleToFit.tiff
+lSLF07#2@29"Copy Viewer_G_ScaleToFit.tiff295546415#295546415#0(0"0(0#0#51"/Users/will/Desktop/Toucan/Viewer_G_ScaleToFit.tiff4300911832#233"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Viewer_G_ScaleToFit.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.tif bg.tif
+s295546415.109560
+e295546415.611984
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/bg.tif
+xbg.tif
+lSLF07#2@11"Copy bg.tif295546415#295546415#0(0"0(0#0#33"/Users/will/Desktop/Toucan/bg.tif4300911832#215"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff bg.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateLeft.tif cursorRotateLeft.tif
+s295546414.805868
+e295546414.817518
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateLeft.tif
+xcursorRotateLeft.tif
+lSLF07#2@25"Copy cursorRotateLeft.tif295546414#295546414#0(0"0(0#0#47"/Users/will/Desktop/Toucan/cursorRotateLeft.tif4300911832#229"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff cursorRotateLeft.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateRight.tif cursorRotateRight.tif
+s295546414.817610
+e295546414.829274
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/cursorRotateRight.tif
+xcursorRotateRight.tif
+lSLF07#2@26"Copy cursorRotateRight.tif295546414#295546414#0(0"0(0#0#48"/Users/will/Desktop/Toucan/cursorRotateRight.tif4300911832#230"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff cursorRotateRight.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/floppy.tif floppy.tif
+s295546415.074215
+e295546415.108353
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/floppy.tif
+xfloppy.tif
+lSLF07#2@15"Copy floppy.tif295546415#295546415#0(0"0(0#0#37"/Users/will/Desktop/Toucan/floppy.tif4300911832#219"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff floppy.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/sl-status_import.tiff sl-status_import.tiff
+s295546414.983526
+e295546414.995085
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/sl-status_import.tiff
+xsl-status_import.tiff
+lSLF07#2@26"Copy sl-status_import.tiff295546414#295546414#0(0"0(0#0#48"/Users/will/Desktop/Toucan/sl-status_import.tiff4300911832#230"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff sl-status_import.tiff --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_larger.tif zoom_larger.tif
+s295546414.935652
+e295546414.947263
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_larger.tif
+xzoom_larger.tif
+lSLF07#2@20"Copy zoom_larger.tif295546414#295546414#0(0"0(0#0#42"/Users/will/Desktop/Toucan/zoom_larger.tif4300911832#224"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff zoom_larger.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCopyTiffFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_smaller.tif zoom_smaller.tif
+s295546414.947354
+e295546414.959478
+r1
+xCopyTiffFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources/zoom_smaller.tif
+xzoom_smaller.tif
+lSLF07#2@21"Copy zoom_smaller.tif295546414#295546414#0(0"0(0#0#43"/Users/will/Desktop/Toucan/zoom_smaller.tif4300911832#225"    cd /Users/will/Desktop/Toucan    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff zoom_smaller.tif --outdir /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource "build/Debug/Toucan_Tiger.app/Contents/Resources/Download _256.png" "Download _256.png"
+s295546413.662495
+e295546413.682714
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/Download _256.png
+xDownload _256.png
+lSLF07#2@22"Copy Download _256.png295546413#295546413#0(0"0(0#0#44"/Users/will/Desktop/Toucan/Download _256.png4300911832#304"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/will/Desktop/Toucan/Download _256.png" /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource "build/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD.png" "Extra HD.png"
+s295546414.746211
+e295546414.755213
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/Extra HD.png
+xExtra HD.png
+lSLF07#2@17"Copy Extra HD.png295546414#295546414#0(0"0(0#0#39"/Users/will/Desktop/Toucan/Extra HD.png4300911832#299"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/will/Desktop/Toucan/Extra HD.png" /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Download.png Download.png
+s295546413.663389
+e295546413.683738
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/Download.png
+xDownload.png
+lSLF07#2@17"Copy Download.png295546413#295546413#0(0"0(0#0#39"/Users/will/Desktop/Toucan/Download.png4300911832#297"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/Download.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/ExoApps_Pub_Key ExoApps_Pub_Key
+s295546413.667378
+e295546413.684446
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/ExoApps_Pub_Key
+xExoApps_Pub_Key
+lSLF07#2@20"Copy ExoApps_Pub_Key295546413#295546413#0(0"0(0#0#42"/Users/will/Desktop/Toucan/ExoApps_Pub_Key4300911832#300"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/ExoApps_Pub_Key /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Icon.icns Icon.icns
+s295546413.637822
+e295546413.694170
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/Icon.icns
+xIcon.icns
+lSLF07#2@14"Copy Icon.icns295546413#295546413#0(0"0(0#0#36"/Users/will/Desktop/Toucan/Icon.icns4300911832#294"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/Icon.icns /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/MiniProgressGradient.png MiniProgressGradient.png
+s295546414.744640
+e295546414.755113
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/MiniProgressGradient.png
+xMiniProgressGradient.png
+lSLF07#2@29"Copy MiniProgressGradient.png295546414#295546414#0(0"0(0#0#51"/Users/will/Desktop/Toucan/MiniProgressGradient.png4300911832#309"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/MiniProgressGradient.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/ToolbarOpenTemplate.png ToolbarOpenTemplate.png
+s295546413.665809
+e295546413.682832
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/ToolbarOpenTemplate.png
+xToolbarOpenTemplate.png
+lSLF07#2@28"Copy ToolbarOpenTemplate.png295546413#295546413#0(0"0(0#0#50"/Users/will/Desktop/Toucan/ToolbarOpenTemplate.png4300911832#308"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/ToolbarOpenTemplate.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/Trash.png Trash.png
+s295546414.750788
+e295546414.756043
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/Trash.png
+xTrash.png
+lSLF07#2@14"Copy Trash.png295546414#295546414#0(0"0(0#0#36"/Users/will/Desktop/Toucan/Trash.png4300911832#294"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/Trash.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/app.icns app.icns
+s295546414.785598
+e295546414.798488
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/app.icns
+xapp.icns
+lSLF07#2@13"Copy app.icns295546414#295546414#0(0"0(0#0#35"/Users/will/Desktop/Toucan/app.icns4300911832#293"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/app.icns /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/bg.jpg bg.jpg
+s295546415.108706
+e295546415.205535
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/bg.jpg
+xbg.jpg
+lSLF07#2@11"Copy bg.jpg295546415#295546415#0(0"0(0#0#33"/Users/will/Desktop/Toucan/bg.jpg4300911832#291"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/bg.jpg /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/bg.png bg.png
+s295546415.612095
+e295546415.718918
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/bg.png
+xbg.png
+lSLF07#2@11"Copy bg.png295546415#295546415#0(0"0(0#0#33"/Users/will/Desktop/Toucan/bg.png4300911832#291"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/bg.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/button-edit.png button-edit.png
+s295546415.073854
+e295546415.077425
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/button-edit.png
+xbutton-edit.png
+lSLF07#2@20"Copy button-edit.png295546415#295546415#0(0"0(0#0#42"/Users/will/Desktop/Toucan/button-edit.png4300911832#300"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/button-edit.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/closebox.png closebox.png
+s295546414.746810
+e295546414.755329
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/closebox.png
+xclosebox.png
+lSLF07#2@17"Copy closebox.png295546414#295546414#0(0"0(0#0#39"/Users/will/Desktop/Toucan/closebox.png4300911832#297"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/closebox.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/delete.png delete.png
+s295546414.748208
+e295546414.755417
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/delete.png
+xdelete.png
+lSLF07#2@15"Copy delete.png295546414#295546414#0(0"0(0#0#37"/Users/will/Desktop/Toucan/delete.png4300911832#295"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/delete.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/downloads.icns downloads.icns
+s295546413.661287
+e295546413.691152
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/downloads.icns
+xdownloads.icns
+lSLF07#2@19"Copy downloads.icns295546413#295546413#0(0"0(0#0#41"/Users/will/Desktop/Toucan/downloads.icns4300911832#299"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/downloads.icns /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/piece-edit.png piece-edit.png
+s295546415.073393
+e295546415.077330
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/piece-edit.png
+xpiece-edit.png
+lSLF07#2@19"Copy piece-edit.png295546415#295546415#0(0"0(0#0#41"/Users/will/Desktop/Toucan/piece-edit.png4300911832#299"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/piece-edit.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CCpResource build/Debug/Toucan_Tiger.app/Contents/Resources/save-icon.png save-icon.png
+s295546414.742619
+e295546414.755013
+r1
+xCpResource
+xbuild/Debug/Toucan_Tiger.app/Contents/Resources/save-icon.png
+xsave-icon.png
+lSLF07#2@18"Copy save-icon.png295546414#295546414#0(0"0(0#0#40"/Users/will/Desktop/Toucan/save-icon.png4300911832#298"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Desktop/Toucan/save-icon.png /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Resources0#
+
+CLd /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger normal x86_64
+s295546423.732022
+e295546423.996260
+r1
+xLd
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger
+xnormal
+xx86_64
+lSLF07#2@88"Link /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger295546423#295546423#0(0"0(0#0#0"4300911832#997"    cd /Users/will/Desktop/Toucan    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/will/Desktop/Toucan/build/Debug -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -filelist /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Objects-normal/x86_64/Toucan_Tiger.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework AppKit -framework Sparkle -framework BWToolkitFramework -framework Growl-WithInstaller -framework RegexKit -framework Cocoa -framework Quartz -o /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/MacOS/Toucan_Tiger0#
+
+CPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/BWToolkitFramework.framework /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework
+s295546423.997292
+e295546424.107565
+r1
+xPBXCp
+xbuild/Debug/Toucan_Tiger.app/Contents/Frameworks/BWToolkitFramework.framework
+x/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework
+lSLF07#2@90"Copy /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework295546423#295546424#0(0"0(0#0#85"/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework4300911832#344"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit/BWToolkitFramework.framework /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/Growl-WithInstaller.framework /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework
+s295546423.997858
+e295546424.391731
+r1
+xPBXCp
+xbuild/Debug/Toucan_Tiger.app/Contents/Frameworks/Growl-WithInstaller.framework
+x/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework
+lSLF07#2@87"Copy /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework295546423#295546424#0(0"0(0#0#82"/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework4300911832#341"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/Growl/Growl-WithInstaller.framework /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/RegexKit.framework /Developer/Local/Frameworks/RegexKit.framework
+s295546423.998582
+e295546424.107789
+r1
+xPBXCp
+xbuild/Debug/Toucan_Tiger.app/Contents/Frameworks/RegexKit.framework
+x/Developer/Local/Frameworks/RegexKit.framework
+lSLF07#2@51"Copy /Developer/Local/Frameworks/RegexKit.framework295546423#295546424#0(0"0(0#0#46"/Developer/Local/Frameworks/RegexKit.framework4300911832#305"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Local/Frameworks/RegexKit.framework /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/Sparkle.framework "/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework"
+s295546423.996528
+e295546424.402229
+r1
+xPBXCp
+xbuild/Debug/Toucan_Tiger.app/Contents/Frameworks/Sparkle.framework
+x/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework
+lSLF07#2@95"Copy /Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework295546423#295546424#0(0"0(0#0#90"/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework4300911832#351"    cd /Users/will/Desktop/Toucan    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/will/Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6/Sparkle.framework" /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/Toucan_Tiger.app/Contents/Frameworks/Sparkle.framework /Users/will/Library/Frameworks/Sparkle.framework
+r0
+
+CProcessInfoPlistFile /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Info.plist English.lproj/Toucan_Tiger-Info.plist
+s295546413.615214
+e295546413.637744
+r1
+xProcessInfoPlistFile
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Info.plist
+xEnglish.lproj/Toucan_Tiger-Info.plist
+lSLF07#2@45"Process English.lproj/Toucan_Tiger-Info.plist295546413#295546413#0(0"0(0#0#64"/Users/will/Desktop/Toucan/English.lproj/Toucan_Tiger-Info.plist4300911832#303"    cd /Users/will/Desktop/Toucan    builtin-infoPlistUtility English.lproj/Toucan_Tiger-Info.plist -genpkginfo /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-brjyvnytvxwzalgdxblyyuofngcx/Toucan_Tiger_Prefix.pch.gch Toucan_Tiger_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-fajwcpjatbfbcbbhcvbmxbqhdxki/Toucan_Tiger_Prefix.pch.gch Toucan_Tiger_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gyuvuyvpuuzcoichjbkesiwdddfb/Toucan_Tiger_Prefix.pch.gch Toucan_Tiger_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch.gch Toucan_Tiger_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_0
+s295546416.891608
+e295546420.721522
+r1
+xProcessPCH
+x/var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch.gch
+xToucan_Tiger_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@34"Precompile Toucan_Tiger_Prefix.pch295546416#295546420#0(0"0(0#0#50"/Users/will/Desktop/Toucan/Toucan_Tiger_Prefix.pch4300911832#1631"    cd /Users/will/Desktop/Toucan    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-generated-files.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-own-target-headers.hmap -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-all-target-headers.hmap -iquote /Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/Toucan_Tiger-project-headers.hmap -F/Users/will/Desktop/Toucan/build/Debug -F/Developer/Local/Frameworks "-F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/AutoUpdater/Sparkle 1.5b6" -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/BWToolkit -F/Users/will/Desktop/Toucan/../../Documents/DEV_TMP/TOOLS/Frameworks/Growl -F/Users/will/Desktop/Toucan/../../Library/Frameworks -I/Users/will/Desktop/Toucan/build/Debug/include -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources/x86_64 -I/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Toucan_Tiger.build/DerivedSources -c /Users/will/Desktop/Toucan/Toucan_Tiger_Prefix.pch -o /var/folders/A5/A5mnMmaVGq8OA1YL32B07E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Toucan_Tiger_Prefix-gzmschxbyvjfzxcritjigbeslulw/Toucan_Tiger_Prefix.pch.gch0#
+
+CTouch /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app
+s295546424.402310
+e295546424.421440
+r1
+xTouch
+x/Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app
+lSLF07#2@61"Touch /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app295546424#295546424#0(0"0(0#0#0"4300911832#112"    cd /Users/will/Desktop/Toucan    /usr/bin/touch -c /Users/will/Desktop/Toucan/build/Debug/Toucan_Tiger.app0#
+

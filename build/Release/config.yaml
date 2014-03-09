@@ -1,0 +1,6 @@
+build_now:              'YES'
+download_base_url:      'http://updates.wills-portal.com/Toucan/archives/'
+appcast_basefolder:     '/Users/will/Desktop/Toucan/build/Release/Toucan_www/'
+appcast_xml_name:       'appcast.xml'
+keychain_privkey_name:  'ExoApps_Pub_Key'
+css_file_name:          'rnotes.css'

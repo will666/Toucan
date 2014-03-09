@@ -1,0 +1,18 @@
+TUpload to FTP
+v7
+r0
+t295546107.175736
+cCheck dependencies
+
+N/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Upload to FTP.build/Script-BE3D6ABA10F36AD500A80229.sh
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295546107#295546107#0(0"0(0#1#0"4300911832#0"0#
+
+CPhaseScriptExecution "cURL Upload" "/Users/will/Desktop/Toucan/build/Toucan.build/Debug/Upload to FTP.build/Script-BE3D6ABA10F36AD500A80229.sh"
+r0
+

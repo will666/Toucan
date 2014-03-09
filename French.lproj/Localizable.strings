@@ -1,0 +1,74 @@
+/* 
+   Localizable.strings
+   Toucan
+
+   Created by William VALENTIN on 07/10/09.
+   Copyright 2009 ExoApps. All rights reserved.
+ */
+
+"ICON_POPUP_BUTTON_TITLE" = "Icone";
+"MIDDLE_POPUP_BUTTON_TITLE" = "Moyenne";
+"HUGE_POPUP_BUTTON_TITLE" = "Grande";
+"COLOR_POPUP_BUTTON_TITLE" = "Couleur";
+"BLACK_AND_WHITE_POPUP_BUTTON_TITLE" = "N&B";
+"NEWS_POPUP_BUTTON_TITLE" = "Actualité";
+"FACE_POPUP_BUTTON_TITLE" = "Visages";
+"PHOTO_CONTENT_POPUP_BUTTON_TITLE" = "Contenu photo";
+"CLIPART_POPUP_BUTTON_TITLE" = "Images clipart";
+"HAND_DRAW_POPUP_BUTTON_TITLE" = "Dessins au trait";
+"DESTINATION_FOLDER_DIALOG_TITLE" = "Emplacement actuel : ";
+"GROWL_PATH_CHANGED_DESCRIPTION_NOTIFICATION" = "Dossier de destination modifié avec succès => %@";
+"GROWL_DOWNLOAD_ERROR_DESCRIPTION_NOTIFICATION" = "Un problème est survenue lors du téléchargement de l'image !";
+"GROWL_DOWNLOAD_SUCCESSFULL_DESCRIPTION_NOTIFICATION" = "Sauvegarde effectuée avec succès => %@";
+"GROWL_CONNEXION_FAILED_DESCRIPTION_NOTIFICATION" = "Connexion avec le serveur distant impossible !";
+"SAFE_RADIO_BUTTON_TITLE" = "Activé";
+"SIZE_TOOLBAR_ITEM_LABEL" = "Taille";
+"SIZE_TOOLBAR_ITEM_PALETTE_LABEL" = "Taille";
+"TINT_TOOLBAR_ITEM_LABEL" = "Teinte";
+"TINT_TOOLBAR_ITEM_PALETTE_LABEL" = "Teinte";
+"GENERAL_PREF_TOOLBAR_ITEM_LABEL" = "Général";
+"GENERAL_PREF_TOOLBAR_ITEM_PALETTE_LABEL" = "Général";
+"ADVANCED_PREF_TOOLBAR_ITEM_LABEL" = "Avancé";
+"ADVANCED_PREF_TOOLBAR_ITEM_PALETTE_LABEL" = "Avancé";
+"SEARCH_FIELD_TOOLBAR_ITEM_LABEL" = "Recherche";
+"SEARCH_FIELD_TOOLBAR_ITEM_PALETTE_LABEL" = "Recherche";
+"SEARCH_BUTTON_TOOLBAR_ITEM_LABEL" = "Envoyer";
+"SEARCH_BUTTON_TOOLBAR_ITEM_PALETTE_LABEL" = "Envoyer";
+"SAFE_RADIO_BUTTON_TOOLBAR_LABEL" = "Modération";
+"SAFE_RADIO_BUTTON_TOOLBAR_PALETTE_LABEL" = "Modération";
+"POSITION_TEXT_FIELD_RESULTS" = "Image : %d à %d";
+"COPYRIGHTS_TEXT_FIELD_LABEL" = "©2009 ExoApps, Tous droits réservés";
+"COMPLETED_DOWNLOAD_PERCENTS" = "%i%% de \"%@\" effectués";
+"IMG_INFOS_NAME" = "Nom : %@";
+"IMG_INFOS_SIZE" = "Taille : %@ ppp";
+"IMG_INFOS_TYPE" = "Type : %@";
+"IMG_INFOS_SOURCE" = "Source : %@";
+"COPYRIGHTS_1_POPUP_BUTTON_TITLE" = "Réutilisation autorisée";
+"COPYRIGHTS_2_POPUP_BUTTON_TITLE" = "Réutilisation à des fins commerciales autorisée";
+"COPYRIGHTS_3_POPUP_BUTTON_TITLE" = "Réutilisation avec modification autorisée";
+"COPYRIGHTS_4_POPUP_BUTTON_TITLE" = "Réutilisation avec modification à des fins commerciales autorisée";
+"COPY_TOOLBAR_ITEM_LABEL" = "Copyrights";
+"COPY_TOOLBAR_ITEM_PALETTE_LABEL" = "Copyrights";
+"SAFE_RADIO_BUTTON_TOOLBAR_TOOLTIP_LABEL" = "Activer/Désactiver le filtre de modération des résultats";
+"SIZE_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Spécifier la taille des images";
+"SEARCH_BUTTON_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Cliquez pour lancer la recherche";
+"SEARCH_FIELD_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Entrez les mots clé à rechercher. Vous pouvez limiter la recherche à un site donné (remplacez MOT_CLE et SITE) => MOT_CLE :SITE";
+"COPY_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choisissez le type de droits d'utilisation des images";
+"TINT_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choisissez la teinte des images";
+"INFO_SIZE" = "Taille : ";
+"INFO_TYPE" = "Type : ";
+"INFO_SOURCE" = "Source : ";
+"FORMAT_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choisissez le format d'images";
+"TYPE_TOOLBAR_ITEM_TOOLTIP_LABEL" = "Choisissez le type d'images";
+"SLIDESHOW_BUTTON_TOOLTIP_LABEL" = "Lancer le diaporama";
+"SEARCH_TEXTFIELD_CELL_PLACEHOLDER" = "Entrer un mot clé";
+"GROWL_DOWNLOAD_ERROR_SOME_ITEMS_UNFETCHABLE_DESCRIPTION_NOTIFICATION" = "%i image(s) non téléchargée(s). Introuvable(s) sur le serveur distant !";
+"IMAGE_TOOL_MODE_MOVE_LABEL" = "Déplacement";
+"IMAGE_TOOL_MODE_SELECT_LABEL" = "Sélection";
+"IMAGE_TOOL_MODE_CROP_LABEL" = "Rognage";
+"IMAGE_TOOL_MODE_ROTATE_LABEL" = "Rotation";
+"IMAGE_TOOL_MODE_ANNOTATE_LABEL" = "Annotation";
+"GROWL_ADD_DOWNLOADS_NOTIFICATION" = "%i images ajoutées à la liste des téléchargements";
+"SEND_MAIL_SUBJECT" = "Images : %@";
+"SEND_MAIL_BODY" = "Envoyé depuis Toucan : http://www.wills-portal.com";
+

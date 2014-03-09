@@ -1,0 +1,21 @@
+//
+//  MainController.m
+//  Seagull
+//
+//  Created by William VALENTIN on October 03, 2009.
+//	©2009 ExoApps, All Rights Reserved
+//
+//
+// Prefix header for all source files of the 'Toucan' target in the 'Toucan' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
+#endif
+#define ALog(...) NSLog(__VA_ARGS__)
